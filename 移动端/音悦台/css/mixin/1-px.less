@@ -1,0 +1,25 @@
+.onepx(@color){
+  position: relative;
+  &::before{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: @color;
+    @media(device-pixel-ratio: 2){
+      transform: rotateY(0.5);
+    }
+    @media(-webkit-device-pixel-ratio: 2){
+      transform: rotateY(0.5);
+    }
+    @media(device-pixel-ratio: 3){
+      transform: rotateY(0.3333333333333);
+    }
+    @media(-webkit-device-pixel-ratio: 3){
+      transform: rotateY(0.3333333333333);
+    }
+  }
+}
