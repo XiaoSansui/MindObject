@@ -1,0 +1,695 @@
+.hf html,
+.hf body {
+  width: 100%;
+  height: 100%;
+}
+.hf .clearfix {
+  *zoom: 1;
+}
+.hf .clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.hf .height-wrap #head {
+  width: 100%;
+  height: 80px;
+  background-size: 100%;
+  font-size: 16px;
+  overflow: hidden;
+}
+.hf .height-wrap #head a {
+  text-decoration: none;
+  color: black;
+}
+.hf .height-wrap #head a:hover {
+  color: deepskyblue;
+}
+.hf .height-wrap #head a.active {
+  color: deepskyblue;
+}
+.hf .height-wrap #head .nav {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 0 150px;
+}
+.hf .height-wrap #head .nav .logo {
+  margin-top: 20px;
+}
+.hf .height-wrap #head .nav .list {
+  margin-top: 30px;
+  float: right;
+}
+.hf .height-wrap #head .nav .list li {
+  float: left;
+  margin-left: 20px;
+}
+.hf .height-wrap #footer {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  bottom: 0;
+  background: #333333;
+  padding-top: 20px;
+}
+.hf .height-wrap #footer a {
+  text-decoration: none;
+  color: gray;
+}
+.hf .height-wrap #footer .footer-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hf .height-wrap #footer .footer-center ul {
+  margin: 0 25px;
+}
+.hf .height-wrap #footer .footer-center ul li a {
+  line-height: 25px;
+}
+.hf .height-wrap #footer .footer-center ul p {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 30px;
+}
+.hf .height-wrap #footer .footer-center ul a {
+  font-size: 15px;
+}
+.hf .height-wrap #footer .footer-center .list7 li:nth-child(2) .wx .wb {
+  margin-left: 5px;
+}
+.hf .height-wrap #footer .footer-center .list7 li:nth-child(2) .wx .ewm {
+  opacity: 0;
+}
+.hf .height-wrap #footer .footer-center .list7 li:nth-child(2) .wx .ewm img {
+  margin-top: 10px;
+  width: 100px;
+}
+.hf .height-wrap #footer .footer-center .list7 li:nth-child(2) .wx:hover .ewm {
+  opacity: 1;
+}
+.hf .height-wrap #footer .line1 {
+  width: 90%;
+  height: 2px;
+  background: #272727;
+  position: absolute;
+  top: 50px;
+}
+.hf .height-wrap #footer .line2 {
+  width: 90%;
+  height: 2px;
+  background: #272727;
+  position: absolute;
+  top: 220px;
+}
+.hf .height-wrap #footer .p1 {
+  color: gray;
+  margin-left: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 150px;
+  margin-top: 30px;
+}
+.hf .height-wrap #footer .footer-bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+.hf .height-wrap #footer .footer-bottom .list li {
+  float: left;
+  margin: 15px;
+  opacity: 0.5;
+  transition: 1s opacity;
+}
+.hf .height-wrap #footer .footer-bottom .list li:hover {
+  opacity: 1;
+}
+.hf .height-wrap #footer .down {
+  text-align: center;
+  position: relative;
+  bottom: -30px;
+  width: 100%;
+}
+.hf .height-wrap #footer .down span {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+}
+.hf .height-wrap #footer .down .s1 img {
+  width: 20px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.height-wrap #head {
+  width: 100%;
+  height: 80px;
+  background-size: 100%;
+  font-size: 16px;
+  overflow: hidden;
+}
+.height-wrap #head a {
+  text-decoration: none;
+  color: black;
+}
+.height-wrap #head a:hover {
+  color: deepskyblue;
+}
+.height-wrap #head a.active {
+  color: deepskyblue;
+}
+.height-wrap #head .nav {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 0 150px;
+}
+.height-wrap #head .nav .logo {
+  margin-top: 20px;
+}
+.height-wrap #head .nav .list {
+  margin-top: 30px;
+  float: right;
+}
+.height-wrap #head .nav .list li {
+  float: left;
+  margin-left: 20px;
+}
+.height-wrap #footer {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  bottom: 0;
+  background: #333333;
+  padding-top: 20px;
+}
+.height-wrap #footer a {
+  text-decoration: none;
+  color: gray;
+}
+.height-wrap #footer .footer-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.height-wrap #footer .footer-center ul {
+  margin: 0 25px;
+}
+.height-wrap #footer .footer-center ul li a {
+  line-height: 25px;
+}
+.height-wrap #footer .footer-center ul p {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 30px;
+}
+.height-wrap #footer .footer-center ul a {
+  font-size: 15px;
+}
+.height-wrap #footer .footer-center .list7 li:nth-child(2) .wx .wb {
+  margin-left: 5px;
+}
+.height-wrap #footer .footer-center .list7 li:nth-child(2) .wx .ewm {
+  opacity: 0;
+}
+.height-wrap #footer .footer-center .list7 li:nth-child(2) .wx .ewm img {
+  margin-top: 10px;
+  width: 100px;
+}
+.height-wrap #footer .footer-center .list7 li:nth-child(2) .wx:hover .ewm {
+  opacity: 1;
+}
+.height-wrap #footer .line1 {
+  width: 90%;
+  height: 2px;
+  background: #272727;
+  position: absolute;
+  top: 50px;
+}
+.height-wrap #footer .line2 {
+  width: 90%;
+  height: 2px;
+  background: #272727;
+  position: absolute;
+  top: 220px;
+}
+.height-wrap #footer .p1 {
+  color: gray;
+  margin-left: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 150px;
+  margin-top: 30px;
+}
+.height-wrap #footer .footer-bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+.height-wrap #footer .footer-bottom .list li {
+  float: left;
+  margin: 15px;
+  opacity: 0.5;
+  transition: 1s opacity;
+}
+.height-wrap #footer .footer-bottom .list li:hover {
+  opacity: 1;
+}
+.height-wrap #footer .down {
+  text-align: center;
+  position: relative;
+  bottom: -30px;
+  width: 100%;
+}
+.height-wrap #footer .down span {
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+}
+.height-wrap #footer .down .s1 img {
+  width: 20px;
+}
+#content {
+  width: 100%;
+  height: 100%;
+}
+#content .lunbo {
+  width: 100%;
+  height: 540px;
+}
+#content .lunbo .lunbo1 {
+  width: 100%;
+  height: 540px;
+  position: relative;
+  background: url("../img/car-stop/parking_banner1.png") no-repeat;
+  background-size: 100%;
+}
+#content .lunbo .lunbo1 .wrap {
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  left: 25%;
+  top: 30%;
+}
+#content .lunbo .lunbo1 .wrap .line1 {
+  width: 800px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+#content .lunbo .lunbo1 .wrap .line2 {
+  width: 800px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  bottom: 160px;
+  left: -20px;
+}
+#content .lunbo .lunbo1 .wrap h1 {
+  font-size: 63px;
+  color: white;
+}
+#content .lunbo .lunbo1 .wrap h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+#content .lunbo .lunbo2 {
+  width: 100%;
+  height: 540px;
+  position: relative;
+  background: url("../img/car-stop/parking_banner2.png") no-repeat;
+  background-size: 100%;
+}
+#content .lunbo .lunbo2 .wrap {
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  left: 25%;
+  top: 30%;
+}
+#content .lunbo .lunbo2 .wrap .line1 {
+  width: 800px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+#content .lunbo .lunbo2 .wrap .line2 {
+  width: 800px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  bottom: 160px;
+  left: -20px;
+}
+#content .lunbo .lunbo2 .wrap h1 {
+  font-size: 63px;
+  color: white;
+}
+#content .lunbo .lunbo2 .wrap h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+#content .wrap {
+  width: 100%;
+}
+#content .wrap .nav {
+  height: 60px;
+  width: 100%;
+  background: #F1F1F1;
+  text-align: center;
+  position: relative;
+  top: 0;
+  z-index: 6;
+}
+#content .wrap .nav a {
+  display: inline-block;
+  width: 150px;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  line-height: 60px;
+}
+#content .wrap .nav a.active {
+  color: white;
+  background: #1B82E2;
+}
+#content .wrap .shouye .img1 img {
+  width: 100%;
+}
+#content .wrap .shouye .lunbo2 {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#content .wrap .shouye .lunbo2 img {
+  width: 100%;
+}
+#content .wrap .shouye .lunbo2 .swiper-pagination2 {
+  text-align: center;
+}
+#content .wrap .shouye .fangan {
+  margin-top: 20px;
+  text-align: center;
+}
+#content .wrap .shouye .fangan h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+#content .wrap .shouye .fangan p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+#content .wrap .shouye .fangan img {
+  width: 70%;
+}
+#content .wrap .shouye .fangan .line {
+  display: inline-block;
+  width: 150px;
+  height: 2px;
+  margin: 30px;
+  background: deepskyblue;
+}
+#content .wrap .shouye .one .wrap {
+  background: linear-gradient(#f1f1f1, #ffffff, #f1f1f1, #ffffff);
+}
+#content .wrap .shouye .three {
+  background: url("../img/car-stop/91894733352.jpg") no-repeat;
+  background-size: 100%;
+  background-position: 0 -300px;
+}
+#content .wrap .shouye .four {
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
+#content .wrap .shouye .four .list {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+#content .wrap .shouye .four .list li {
+  float: left;
+  width: 265px;
+  height: 155px;
+  margin: 5px;
+}
+#content .wrap .shouye .four .list li div {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  line-height: 155px;
+  transform: scale(0);
+  transition: .5s transform;
+}
+#content .wrap .shouye .four .list li div span {
+  line-height: 40px;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  border: 2px solid white;
+  color: white;
+  font-size: 18px;
+}
+#content .wrap .shouye .four .list li:nth-child(1) {
+  background: url("../img/car-stop/parking_1.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(1):hover div {
+  transform: scale(1);
+}
+#content .wrap .shouye .four .list li:nth-child(2) {
+  background: url("../img/car-stop/parking_2.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(2):hover div {
+  transform: scale(1);
+}
+#content .wrap .shouye .four .list li:nth-child(3) {
+  background: url("../img/car-stop/parking_3.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(3):hover div {
+  transform: scale(1);
+}
+#content .wrap .shouye .four .list li:nth-child(4) {
+  background: url("../img/car-stop/parking_4.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(4):hover div {
+  transform: scale(1);
+}
+#content .wrap .shouye .four .list li:nth-child(5) {
+  background: url("../img/car-stop/parking_5.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(5):hover div {
+  transform: scale(1);
+}
+#content .wrap .shouye .four .list li:nth-child(6) {
+  background: url("../img/car-stop/parking_6.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(6):hover div {
+  transform: scale(1);
+}
+#content .wrap .shouye .four .list li:nth-child(7) {
+  background: url("../img/car-stop/parking_7.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(7):hover div {
+  transform: scale(1);
+}
+#content .wrap .shouye .four .list li:nth-child(8) {
+  background: url("../img/car-stop/parking_8.jpg") no-repeat;
+}
+#content .wrap .shouye .four .list li:nth-child(8):hover div {
+  transform: scale(1);
+}
+#content .wrap .anli {
+  width: 100%;
+  height: 700px;
+}
+#content .wrap .anli .list {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#content .wrap .anli .list li {
+  float: left;
+  margin: 0 20px;
+  text-align: center;
+}
+#content .wrap .anli .list li a {
+  display: inline-block;
+  line-height: 100px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+#content .wrap .anli .list li a.active {
+  color: #1B82E2;
+}
+#content .wrap .anli .list li a:hover {
+  color: #1B82E2;
+}
+#content .wrap .anli .wrap {
+  overflow: hidden;
+}
+#content .wrap .anli .wrap .list1 {
+  display: none;
+  position: relative;
+  width: 100%;
+  left: 8%;
+  text-align: center;
+}
+#content .wrap .anli .wrap .list1 li {
+  float: left;
+  margin: 20px;
+  width: 274px;
+  height: 200px;
+}
+#content .wrap .anli .wrap .list1 li div {
+  width: 274px;
+  height: 100%;
+  border: 1px solid black;
+}
+#content .wrap .anli .wrap .list1 li div span {
+  line-height: 40px;
+}
+#content .wrap .anli .wrap .nonone {
+  display: block;
+}
+#content .wrap .anli .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#content .wrap .anli .btn span {
+  display: inline-block;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  color: #1B82E2;
+  background: gainsboro;
+  border-radius: 5px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+#content .wrap .anli .btn span:hover {
+  border: 1px solid blue;
+}
+#content .wrap .none {
+  display: none;
+}
+#content .wrap .nonone {
+  display: block;
+}
+#content .text {
+  background: #EEEEEE;
+  padding: 20px 0;
+}
+#content .text .text-head {
+  text-align: center;
+}
+#content .text .text-head h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+#content .text .text-head p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+#content .text .text-head img {
+  width: 100%;
+}
+#content .text .text-head .line {
+  display: inline-block;
+  width: 150px;
+  height: 2px;
+  margin: 30px;
+  background: deepskyblue;
+}
+#content .text .text-from {
+  width: 505px;
+  margin: 80px auto;
+}
+#content .text .text-from li.li1 select {
+  width: 188px;
+  float: left;
+  line-height: 40px;
+  height: 40px;
+  margin: 10px 0;
+}
+#content .text .text-from ul li {
+  list-style: none;
+}
+#content .text .text-from li span {
+  width: 90px;
+  float: left;
+  margin-top: 22px;
+  display: inline-block;
+  text-align: right;
+  padding-right: 15px;
+}
+#content .text .text-from li input {
+  width: 374px;
+  line-height: 40px;
+  height: 30px;
+  margin: 10px 0;
+  display: inline-block;
+}
+#content .text .text-from .button {
+  width: 282px;
+  height: 47px;
+  background: #3494ff;
+  color: #fff;
+  line-height: 47px;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#content .text .text-form-control {
+  display: block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}

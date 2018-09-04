@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #warp{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            border: 1px solid;
+            perspective: 200px;
+
+        }
+        #warp > .box{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            transform-style: preserve-3d;
+            transition: 5s;
+
+
+
+        }
+        .box div{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            text-align: center;
+            font: 50px/100px "微软雅黑";
+
+
+        }
+
+
+        #warp:hover .box{
+            transform: rotateY(720deg);
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="warp">
+    <div class="box"></div>
+</div>
+</body>
+
+<script>
+    DuoLengZhu(4);
+    function DuoLengZhu(n){
+        var div = document.querySelector("#warp > .box");
+        var styleNode = document.createElement("style");
+        var degOut = 360/n;
+        var degIn = 180-360/n;
+        var text ="";
+        var cssNode ="";
+
+        for(var i=0;i<n;i++) {
+            text+="<div>"+(i+1)+"</div>";
+            cssNode+=".box div:nth-child("+(i+1)+"){transform: rotateY("+(i*degOut)+"deg);}";
+    }
+        div.innerHTML=text;
+        var mdiv = document.querySelector(".box div");
+        var qwe = mdiv.offsetWidth;
+        cssNode+="#warp > .box{transform-origin:center center "+ (qwe/2*Math.tan((degIn/2)*Math.PI/180))+"px ;};";
+        cssNode+="#warp > .box div{transform-origin:center center "+ (qwe/2 * Math.tan((degIn/2)*Math.PI/180))+"px ;};";
+
+        styleNode.innerHTML = cssNode;
+
+        document.head.appendChild(styleNode);
+
+
+}
+
+</script>
+
+</html>

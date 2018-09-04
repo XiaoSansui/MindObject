@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #warp{
+            width: 600px;
+            height: 150px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: 100px auto;
+            background-color: rgb(9,165,215);
+        }
+        #warp > div{
+            width: 600px;
+            height: 150px;
+            font: 50px/150px "微软雅黑";
+            text-align: center;
+            color: white;
+            transform: scaleX(1.5);
+            transition: 1s;
+        }
+        #warp:hover div{
+            transform: scaleX(1);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="warp">
+        <div>4亿网友共同信赖</div>
+    </div>
+</body>
+</html>

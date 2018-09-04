@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            overflow: hidden;
+        }
+        #warp{
+            height: 100%;
+            background-color: pink;
+            position: relative;
+            perspective: 500px;
+        }
+        #warp > #inner{
+            text-align: center;
+            position: relative;
+            transform-style: preserve-3d;
+
+        }
+        #warp > #inner > img{
+            position: absolute;
+            margin-top: 250px;
+            left: 50%;
+            top: 50%;
+            transform: translate3d(-50%,-50%,0) rotateY(0deg);
+            animation: move 3s linear infinite normal;
+        }
+
+        @keyframes move {
+            from{
+                transform: translate3d(-50%,-50%,0) rotateY(0deg);
+            }to{
+             transform: translate3d(-50%,-50%,0) rotateY(720deg);
+         }
+        }
+    </style>
+</head>
+<body>
+    <div id="warp">
+        <div id="inner">
+            <img src="img1/load/logo2.png">
+        </div>
+    </div>
+</body>
+
+
+</html>
