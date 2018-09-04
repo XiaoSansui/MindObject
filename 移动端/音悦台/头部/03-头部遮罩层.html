@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum=1.0,maximum=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/text.css">
+</head>
+<body>
+  <div id="wrap">
+    <div class="head">
+      <!--头部上层-->
+      <div class="head-top">
+        <!--logo-->
+        <h1 class="logo">
+          <a href="javascript:;">
+            <img src="img/logo.png">
+          </a>
+        </h1>
+        <!--面包屑导航-->
+        <a href="javascript:;" class="menuBtn"></a>
+        <!--按钮排-->
+        <div class="btns">
+          <a href="javascript:;" class="search">搜索</a>
+          <a href="javascript:;">登录</a>
+          <a href="javascript:;">注册</a>
+        </div>
+      </div>
+      <!--头部下层-->
+      <div class="head-bottom">
+        <form method="post">
+          <input type="text" placeholder="请输入内容">
+          <input type="submit" value="搜索">
+        </form>
+      </div>
+      <!--遮罩层-->
+      <ul class="mask">
+        <li><a href="javascript:;">首页</a></li>
+        <li><a href="javascript:;">MV</a></li>
+        <li><a href="javascript:;">悦单</a></li>
+        <li><a href="javascript:;">V榜</a></li>
+        <li><a href="javascript:;">音乐</a></li>
+        <li><a href="javascript:;">商城</a></li>
+        <li><a href="javascript:;">节目</a></li>
+        <li><a href="javascript:;">饭团</a></li>
+        <li><a href="javascript:;">咨询</a></li>
+        <li><a href="javascript:;">我的家</a></li>
+        <li><a href="javascript:;">APP下载</a></li>
+        <li><a href="javascript:;">热门应用</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+</body>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript">
+  window.onload = function () {
+    //清除默认样式
+    document.addEventListener("touchstart",function (ev) {
+      ev=ev||event;
+      ev.preventDefault();
+    })
+
+    //选择适配方案(rem)
+    ;(function () {
+      var styleNode = document.createElement("style");
+      var w = document.documentElement.clientWidth/16;
+      styleNode.innerHTML = "html{font-size:"+w+"px!important}";
+      document.head.appendChild(styleNode);
+    })()
+
+
+    function changeFoucs(){
+      var inputNode = document.querySelector("#wrap .head .head-bottom form input[type=\"text\"]");
+      inputNode.addEventListener("touchstart",function (ev) {
+        ev=ev||event;
+        this.focus();
+        ev.stopPropagation();
+        ev.preventDefault();
+      })
+      document.addEventListener("touchstart",function (){
+        inputNode.blur();
+      })
+    }
+
+    //遮罩层
+    CMCFMenuBtn()
+    function CMCFMenuBtn(ev) {
+        ev=ev||event;
+        var menuBtn = document.querySelector("#wrap .head .head-top .menuBtn");
+        var mask = document.querySelector("#wrap .head .mask");
+        var isXX=false;
+        menuBtn.addEventListener("touchstart",function (ev) {
+          ev=ev||event;
+          var touchC = ev.changedTouches[0];
+          if(!isXX){
+            tools.addClass(menuBtn,"active");
+            mask.style.display="block";
+          }else{
+            tools.removeClass(menuBtn,"active");
+            mask.style.display="none";
+          }
+          ev.stopPropagation();
+          ev.preventDefault();
+          isXX=!isXX;
+        })
+       document.addEventListener("touchstart",function (){
+          if(isXX){
+            tools.removeClass(menuBtn,"active");
+            mask.style.display="none";
+          }
+          isXX=!isXX;
+       })
+      mask.addEventListener("touchstart",function (ev) {
+        ev=ev||event;
+        ev.stopPropagation();
+        ev.preventDefault();
+      })
+    }
+    
+  }
+
+</script>
+</html>
