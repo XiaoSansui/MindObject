@@ -69,7 +69,7 @@ function testUpdate() {
 // 3.4. 通过 Model 的 remove() 删除匹配的数据
 function testDelete() {
   UserModel.remove({_id:'5b962ff629742510e428a390'},function (error,data) {
-    console.log('remove()',error,data); //{n:0/1 ,ok:1} n表示删除几条 ok表示删除成功
+    console.log('remove()',error,data); //{n:0/1 ,ok:1} n表示删除几条 ok表示删除成功         
   })
 }
 testDelete()
