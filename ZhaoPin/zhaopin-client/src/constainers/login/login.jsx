@@ -9,7 +9,10 @@ import {
   Button
 } from 'antd-mobile';
 import Logo from '../../components/logo/logo'
+import {connect} from 'react-redux'
+import {Redirect} from 'react-router-dom'
 
+import {login} from '../../redux/actions'
 
 class Login extends Component{
   state={
@@ -17,7 +20,7 @@ class Login extends Component{
     password:'' //密码
   }
   login =()=>{
-    console.log(this.state);
+    this.props.login(this.state)
   }
   toRegister=()=>{
     //切换页面
@@ -30,12 +33,17 @@ class Login extends Component{
     })
   }
   render(){
+    const {msg,redirectTo} = this.props.user;
+    if(redirectTo){
+      return  <Redirect to={redirectTo}/>
+    }
     return(
       <div>
-        <NavBar>硅&nbsp;谷&nbsp;直&nbsp;聘</NavBar>
+        <NavBar>W&nbsp;e&nbsp;C&nbsp;h&nbsp;a&nbsp;t</NavBar>
         <Logo/>
         <WingBlank>
           <List>
+            {msg?<div className='error-msg'>{msg}</div>:null}
             <WhiteSpace/>
             <InputItem onChange={val => {this.handleChnage('username',val)}}>用户名:</InputItem>
             <WhiteSpace/>
@@ -49,4 +57,8 @@ class Login extends Component{
     )
   }
 }
-export default Login;
+export default connect(
+  state=>({user:state.user}),
+  {login}
+)(Login)
+

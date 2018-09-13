@@ -12,7 +12,7 @@
           <option name="sshTunnelingConfiguration">
             <SshTunnelingConfiguration />
           </option>
-          <option name="userDatabase" value="ZhaoPin-servers" />
+          <option name="userDatabase" value="ZhaoPinSQL" />
         </ServerConfiguration>
       </list>
     </option>
