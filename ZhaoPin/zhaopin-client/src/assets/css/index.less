@@ -1,11 +1,27 @@
 .error-msg {//错误提示信息
-  color: rgba(246, 68, 69, 0.77);
+  color: rgba(246, 68, 68, 0.77);
   text-align: center;
   font-weight: bold;
   font-size: 18px;
 }
-.am-tab-bar { /*使导航始终在底部*/
+/*使导航始终在底部*/
+.am-tab-bar{
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: inherit !important;
+}
+.header-nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 5;
+}
+/* 消息文本居右 */
+#chat-page .chat-me .am-list-extra {
+  flex-basis: auto; /* 宽度包裹内容 */
+}
+#chat-page .chat-me .am-list-content {
+  padding-right: 15px;
+  text-align: right;
 }

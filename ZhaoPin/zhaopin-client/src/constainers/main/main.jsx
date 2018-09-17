@@ -4,6 +4,7 @@ import {Route,Switch,Redirect} from 'react-router-dom'
 import {connect} from 'react-redux'
 import Cookies from 'js-cookie'
 import {NavBar} from 'antd-mobile'
+import '../../assets/css/index.less'
 
 import {getRedirectTo} from '../../utils'
 import {getUser} from "../../redux/actions";
@@ -14,6 +15,8 @@ import Dashen from '../dashen/dashen'
 import Message from '../message/message'
 import Personal from '../personal/personal'
 import NavFooter from '../../components/nav-footer/nav-footer'
+import Notfound from '../../components/not-found/notfound'
+import Chat from '../chat/chat'
 
 
 class Main extends Component{
@@ -95,13 +98,16 @@ class Main extends Component{
       }
     return(
       <div>
-        {currentNav?<NavBar>{currentNav.title}</NavBar>:null}
+        {currentNav?<NavBar className="header-nav">{currentNav.title}</NavBar>:null}
         <Switch>
           {
             navList.map(nav=> <Route path={nav.path} component={nav.component}/>)
           }
           <Route path='/laobaninfo' component={LaobanInfo}/>
           <Route path='/dasheninfo' component={DashenInfo}/>
+          <Route path='/chat/:userid' component={Chat}/>
+
+          <Route  component={Notfound}/>
         </Switch>
         {currentNav?<NavFooter navList={navList}/>:null}
       </div>

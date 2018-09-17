@@ -7,15 +7,45 @@ import {
   AUTH_SUCCESS,
   ERROR_MSG,
   RECEIVE_USER,
-  RESET_USER
+  RESET_USER,
+  RECEIVE_USER_LIST
 } from './action-types'
 import {
   reqRegister,
   reqLogin,
   reqUpdateUser,
-  reqUser
+  reqUser,
+  reqUserList
 } from '../api'
+import io from 'socket.io-client'
 
+/*
+  单例对象
+    1.创建对象之前:判断对象是否已经存在,只有不存在才去创建
+    2.创建对象之后:保存对象
+*/
+
+function initIO() {
+  if(!io.socket){
+    console.log('initIO启动');
+    //连接服务器,得到与服务器的连接对象
+    io.socket = io('ws://localhost:4000')
+    //绑定监听,接收服务器发送的消息
+    io.socket.on('receiveMsg',function (chatMsg) {
+      console.log('接收服务器发送的消息:',chatMsg);
+    })
+  }
+  
+}
+//发送消息的异步action
+export const sendMsg=({from,to,content})=>{
+  return dispatch =>{
+    console.log('发送消息',{from,to,content});
+    initIO()
+    console.log('initIO执行完成');
+    io.socket.emit('sendMsg',{from,to,content})
+  }
+}
 
 
 //授权成功的同步action
@@ -25,7 +55,9 @@ const errorMsg = (msg)=>({type:ERROR_MSG,data:msg})
 //接受用户的同步action
 const receiveUser = (user)=>({type:RECEIVE_USER,data:user})
 //更新用户的同步action
-const resetUser = (msg)=>({type:RESET_USER,data:msg})
+export const resetUser = (msg)=>({type:RESET_USER,data:msg})
+//接收用户列表的同步action
+export const receiveUserList = (userlist)=>({type:RECEIVE_USER_LIST,data:userlist})
 
 
 //注册异步action
@@ -104,3 +136,15 @@ export const getUser = ()=>{
     }
   }
 }
+
+//获取用户列表的异步action
+export const getUserList=(type)=>{
+  return async dispath=>{
+    const response = await reqUserList(type)
+    const result = response.data
+    if(result.code===0){
+      dispath(receiveUserList(result.data))
+    }
+  }
+}
+

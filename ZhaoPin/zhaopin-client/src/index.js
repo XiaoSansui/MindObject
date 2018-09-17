@@ -9,6 +9,8 @@ import Login from './constainers/login/login'
 import Main from './constainers/main/main'
 import './assets/css/index.less'
 
+//import './test/secketIO_test'
+
 ReactDOM.render((
   <Provider store={store}>
     <HashRouter>

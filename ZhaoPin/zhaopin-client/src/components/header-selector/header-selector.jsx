@@ -16,7 +16,7 @@ export default class HeaderSelector extends Component{
     this.haderList = []
     for (let i = 0; i < 20; i++) {
      this.haderList.push({
-       icon:require(`./images/头像${i+1}.png`),
+       icon:require(`../../assets/images/头像${i+1}.png`),
        test:'头像'+(i+1)
      })
     }
