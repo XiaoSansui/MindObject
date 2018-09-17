@@ -4,7 +4,7 @@ import {Grid,List} from 'antd-mobile'
 import PropTypes from 'prop-types'
 
 export default class HeaderSelector extends Component{
-  static propTypes={
+  static PropTypes={
     setHeader:PropTypes.func.isRequired
   }
   state={

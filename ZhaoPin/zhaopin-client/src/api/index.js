@@ -14,3 +14,8 @@ export const reqUpdateUser = (user)=>ajax('/update',user,'POST')
 export const reqUser = () => ajax('/user')
 //获取用户列表接口
 export const reqUserList = (type) =>ajax('/userlist',{type})
+
+//获取当前用户的聊天信息列表
+export const reqChatMsgList = () => ajax('/msglist')
+//修改指定消息已读
+export const reqReadMsg = (from) => ajax(('/readmsg',{from},'POST'))

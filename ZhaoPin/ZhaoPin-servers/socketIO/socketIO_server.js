@@ -13,9 +13,9 @@ module.exports =function (server) {
       //准备chatMsg对象的相关数据
       const chat_id =[from,to].sort().join('_')  //from_to或者to_from
       const create_time = Date.now()
-      new ChatModel({from,to,content,chat_id,create_time}).save(function (error,chatMsg) {
+      new ChatModel({from,to,content,chat_id,create_time}).save(function (error,chatMsgs) {
         //向连接上的客户端发消息
-        io.emit('receiveMsg',chatMsg)
+        io.emit('receiveMsg',chatMsgs)
       })
     })
   })

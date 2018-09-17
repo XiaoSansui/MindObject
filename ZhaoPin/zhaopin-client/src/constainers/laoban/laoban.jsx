@@ -6,7 +6,7 @@ import UserList from '../../components/user-list/user-list'
 
 class Laoban extends Component{
   componentDidMount(){
-    this.props.getUserList('laoban')
+    this.props.getUserList('dashen')
   }
   render(){
     return(

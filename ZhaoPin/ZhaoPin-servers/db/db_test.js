@@ -19,7 +19,7 @@ const md5=require('blueimp-md5')
 // 1.1. 引入 mongoose
 const mongoose =require('mongoose');
 // 1.2. 连接指定数据库 (URL 只有数据库是变化的 )
-mongoose.connect('mongodb://localhost:27017/ZhaoPin-servers');
+mongoose.connect('mongodb://localhost:27017/MyServes');
 // 1.3. 获取连接对象
 const conn = mongoose.connection;
 // 1.4. 绑定连接完成的监听 ( 用来提示连接成功 )
@@ -55,8 +55,8 @@ function testFind() {
   })
   //查询单个:得到的是匹配的文档对象,如果没有匹配的就返回null
   UserModel.findOne({_id:'5b962ff629742510e428a390'},function (error,user) {
-      console.log('findOne()',error,user);
-    })
+    console.log('findOne()',error,user);
+  })
 }
 //testFind()
 // 3.3. 通过 Model 的 findByIdAndUpdate() 更新某个数据
@@ -69,7 +69,7 @@ function testUpdate() {
 // 3.4. 通过 Model 的 remove() 删除匹配的数据
 function testDelete() {
   UserModel.remove({_id:'5b962ff629742510e428a390'},function (error,data) {
-    console.log('remove()',error,data); //{n:0/1 ,ok:1} n表示删除几条 ok表示删除成功         
+    console.log('remove()',error,data); //{n:0/1 ,ok:1} n表示删除几条 ok表示删除成功
   })
 }
 testDelete()
