@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18e30c2c-68aa-4989-8340-3dd561e69115" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhaoPin-servers/db/db_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/ZhaoPin-servers/db/db_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhaoPin-servers/db/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/ZhaoPin-servers/db/modules.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhaoPin-servers/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ZhaoPin-servers/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhaoPin-servers/socketIO/socketIO_server.js" beforeDir="false" afterPath="$PROJECT_DIR$/ZhaoPin-servers/socketIO/socketIO_server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/assets/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/assets/css/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/header-selector/header-selector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/header-selector/header-selector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/nav-footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/nav-footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/chat/chat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/chat/chat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/chat/message.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/dashen/dashen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/dashen/dashen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/laoban/laoban.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/laoban/laoban.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/message/message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/message/message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/redux/action-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/redux/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/redux/reducers.js" afterDir="false" />
-    </list>
+    <list default="true" id="18e30c2c-68aa-4989-8340-3dd561e69115" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -63,7 +43,7 @@
           <entry key="head-selector" value="1" />
           <entry key="js" value="188" />
           <entry key="json" value="11" />
-          <entry key="jsx" value="123" />
+          <entry key="jsx" value="124" />
           <entry key="less" value="29" />
           <entry key="md" value="1" />
           <entry key="null/ZhaoPin-servers/users" value="2" />
@@ -78,7 +58,7 @@
           <entry key="json" value="39" />
           <entry key="jsx" value="11184" />
           <entry key="less" value="262" />
-          <entry key="txt" value="34" />
+          <entry key="txt" value="57" />
           <entry key="www" value="41" />
         </counts>
       </usages-collector>
@@ -87,7 +67,7 @@
           <entry key="CSS" value="1" />
           <entry key="EJS" value="1" />
           <entry key="JSON" value="11" />
-          <entry key="JSX Harmony" value="120" />
+          <entry key="JSX Harmony" value="121" />
           <entry key="JavaScript" value="198" />
           <entry key="Less" value="29" />
           <entry key="MONGO" value="11" />
@@ -101,7 +81,7 @@
           <entry key="JSX Harmony" value="11184" />
           <entry key="JavaScript" value="10843" />
           <entry key="Less" value="262" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="PLAIN_TEXT" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -109,14 +89,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/message/message.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="72">
+              <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
               <folding>
                 <element signature="e#11#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="vcs://F:/GitHomes/Githubs/ZhaoPin/zhaopin-client/src/constainers/message/message.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -380,7 +369,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Work\WebStorm 2018.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -458,7 +447,7 @@
       <workItem from="1537058173939" duration="8491000" />
       <workItem from="1537066743547" duration="1510000" />
       <workItem from="1537144905131" duration="23137000" />
-      <workItem from="1537178221295" duration="10521000" />
+      <workItem from="1537178221295" duration="10875000" />
     </task>
     <task id="LOCAL-00001" summary="聊天功能后台/socketIO实现/头部顶部导航">
       <created>1537146047415</created>
@@ -467,17 +456,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537146047415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="表情列表/聊天界面/信息列表组件/更换数据库">
+      <created>1537190755791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537190755791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122790000" />
+    <option name="totallyTimeSpent" value="123144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -488,9 +484,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49848714" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.32786885" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -506,7 +502,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="聊天功能后台/socketIO实现/头部顶部导航" />
-    <option name="LAST_COMMIT_MESSAGE" value="聊天功能后台/socketIO实现/头部顶部导航" />
+    <MESSAGE value="表情列表/聊天界面/信息列表组件/更换数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="表情列表/聊天界面/信息列表组件/更换数据库" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/zhaopin-client/src/test/secketIO_test.js">
@@ -882,8 +879,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/message/message.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="72">
+          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
           <folding>
             <element signature="e#11#48#0" expanded="true" />
           </folding>
