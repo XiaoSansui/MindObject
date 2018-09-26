@@ -5,6 +5,8 @@ import {connect} from 'react-redux'
 import Cookies from 'js-cookie'
 import {NavBar} from 'antd-mobile'
 import '../../assets/css/index.less'
+import PropTypes from 'prop-types'
+
 
 import {getRedirectTo} from '../../utils'
 import {getUser} from "../../redux/actions";
@@ -20,6 +22,20 @@ import Chat from '../chat/chat'
 
 
 class Main extends Component{
+  constructor(props){
+    super(props)
+    this.state={
+      unReadCount:this.props.unReadCount
+    }
+  }
+  static childContextTypes={
+    unReadCount:PropTypes.number
+  }
+  getChildContext() {
+    return {
+      unReadCount:this.state.unReadCount
+    }
+  }
   //给组件对象添加属性
   navList = [
     {
@@ -62,6 +78,7 @@ class Main extends Component{
       this.props.getUser()
     }
   }
+
   render(){
     //读取cookie中的userid
     const userid = Cookies.get('userid')
@@ -69,6 +86,7 @@ class Main extends Component{
     if(!userid){
       return <Redirect to='/login'/>
     }
+    const unReadCount = this.state.unReadCount
     //如果有,读取redux中的user状态
     const {user} = this.props
     //如果user没有_id,返回null(不做任何显示)
@@ -96,6 +114,8 @@ class Main extends Component{
           navList[0].hide=true
         }
       }
+      console.log('main=unReadCount',unReadCount);
+
     return(
       <div id='wrap'>
         {currentNav?<NavBar className="header-nav">{currentNav.title}</NavBar>:null}
@@ -109,13 +129,14 @@ class Main extends Component{
 
           <Route  component={Notfound}/>
         </Switch>
-        {currentNav?<NavFooter navList={navList}/>:null}
+        {currentNav?<NavFooter navList={navList} unReadCount={unReadCount}/>:null}
       </div>
     )
   }
 }
+
 export default connect(
-  state=>({user:state.user}),
+  state=>({user:state.user,unReadCount:state.chat.unReadCount}),
   {getUser}
 )(Main);
 

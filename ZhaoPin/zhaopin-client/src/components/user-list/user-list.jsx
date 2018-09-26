@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 const Header=Card.Header
 const Body = Card.Body
 class UserList extends Component{
-  static PropTypes={
+  static propTypes={
     userList:PropTypes.array.isRequired
   }
   render(){

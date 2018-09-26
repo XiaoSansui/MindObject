@@ -10,7 +10,8 @@ import {
   RESET_USER,
   RECEIVE_USER_LIST,
   RECEIVE_MSG_LIST,
-  RECEIVE_MSG
+  RECEIVE_MSG,
+  MSG_READ
 } from './action-types'
 import {
   reqRegister,
@@ -35,11 +36,11 @@ function initIO(dispatch,userid) {
     //连接服务器,得到与服务器的连接对象
     io.socket = io('ws://localhost:4000')
     //绑定监听,接收服务器发送的消息
-    io.socket.on('receiveMsg',function (chatMsgs) {
-      console.log('接收服务器发送的消息:',chatMsgs);
+    io.socket.on('receiveMsg',function (chatMsg) {
+      console.log('接收服务器发送的消息:',chatMsg);
       //只有chatMsgs是当前用户的消息时,才去分发同步action消息
-      if(userid ===chatMsgs.from || userid ===chatMsgs.to){
-        dispatch(receiveMsg(chatMsgs))
+      if(userid ===chatMsg.from || userid ===chatMsg.to){
+        dispatch(receiveMsg(chatMsg))
       }
     })
   }
@@ -50,6 +51,18 @@ export const sendMsg=({from,to,content})=>{
   return dispatch =>{
     console.log('发送消息',{from,to,content});
     io.socket.emit('sendMsg',{from,to,content})
+  }
+}
+
+//读取消息的异步action
+export const readMsg = (from, to) => {
+  return async dispatch => {
+    const response = await reqReadMsg(from)
+    const result = response.data
+    if(result.code===0) {
+      const count = result.data
+      dispatch(msgRead({count, from, to}))
+    }
   }
 }
 
@@ -65,19 +78,21 @@ export const resetUser = (msg)=>({type:RESET_USER,data:msg})
 //接收用户列表的同步action
 const receiveUserList = (userlist)=>({type:RECEIVE_USER_LIST,data:userlist})
 //接收消息列表的同步action
-const receiveMsgList = ({users,chatMsgs})=>({type:RECEIVE_MSG_LIST,data:{users,chatMsgs}})
+const receiveMsgList = ({users,chatMsgs,userid})=>({type:RECEIVE_MSG_LIST,data:{users,chatMsgs,userid}})
 //接收一条消息的同步action
-const receiveMsg = (chatMsgs) =>({type:RECEIVE_MSG,data:chatMsgs})
+const receiveMsg = (chatMsg) =>({type:RECEIVE_MSG,data:chatMsg})
+//读取了某个消息的同步action
+const msgRead = ({count, from, to}) => ({type: MSG_READ, data: {count, from, to}})
 
 //异步获取消息列表数据
 async function getMsgList(dispatch,userid) {
+  initIO(dispatch,userid)
   const response = await reqChatMsgList()
   const result = response.data
   if(result.code===0){
-    initIO(dispatch,userid)
     const {users,chatMsgs} = result.data
     //分发同步action
-    dispatch(receiveMsgList({users,chatMsgs}))
+    dispatch(receiveMsgList({users,chatMsgs,userid}))
   }
 }
 
