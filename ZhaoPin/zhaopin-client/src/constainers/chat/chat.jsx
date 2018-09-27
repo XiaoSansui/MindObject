@@ -88,30 +88,30 @@ class Chat extends Component{
           {users[targetId].username}
         </NavBar>
         <List style={{marginTop:50,marginBottom:50}}>
-          {
-            msgs.map(msg=>{
-              if(targetId===msg.from){ //对方发给我的
-                return (
-                  <Item
-                    key={msg._id}
-                    thumb={headerIcon}
-                  >
-                    {msg.content}
-                  </Item>
-                )
-              }else{    //我发给对方的
-                return (
-                  <Item
-                    key={msg._id}
-                    className='chat-me'
-                    extra='我'
-                  >
-                    {msg.content}
-                  </Item>
-                )
-              }
-            })
-          }
+            {
+              msgs.map(msg=>{
+                if(targetId===msg.from){ //对方发给我的
+                  return (
+                    <Item
+                      key={msg._id}
+                      thumb={headerIcon}
+                    >
+                      {msg.content}
+                    </Item>
+                  )
+                }else{    //我发给对方的
+                  return (
+                    <Item
+                      key={msg._id}
+                      className='chat-me'
+                      extra='我'
+                    >
+                      {msg.content}
+                    </Item>
+                  )
+                }
+              })
+            }
         </List>
         <div className='am-tab-bar'>
           <InputItem

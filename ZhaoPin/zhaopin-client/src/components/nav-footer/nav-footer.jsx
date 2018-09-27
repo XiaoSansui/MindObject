@@ -4,34 +4,63 @@ import {TabBar} from 'antd-mobile'
 import PropTypes from 'prop-types'
 import {withRouter} from 'react-router-dom'
 
+function getSumMsgs(chatMsgs,userid) {
+  // 1.找出每个聊天的lastMsg,并用一个对象容器来保存{chat_id:lastMsg}
+  const sumMsgObjs ={}
+  chatMsgs.forEach(msg=>{
+    //对msg进行个体的统计
+    if(msg.to===userid && !msg.read){
+      msg.unReadCount=1
+    }else{
+      msg.unReadCount=0
+    }
+    const chatId = msg.chat_id
+    let sumMsg = sumMsgObjs[chatId]
+    //没有
+    if(!sumMsg){
+      sumMsgObjs[chatId] = msg
+    }else{
+      const unReadCount =sumMsg.unReadCount +msg.unReadCount
+      if(msg.create_time>sumMsg.create_time){
+        sumMsgObjs[chatId] = msg
+      }
+      sumMsgObjs[chatId].unReadCount = unReadCount
+    }
+  })
+  const sumsMsgs = Object.values(sumMsgObjs)
+  let msgNums = 0
+  sumsMsgs.forEach(sum =>{
+    if(!sum.read){
+      msgNums += sum.unReadCount
+    }
+  })
+  return msgNums
+}
 
 const Item = TabBar.Item
 class NavFooter extends Component{
- /* getChildContext() {
-    return unReadCount
-  }*/
   static propTypes = {
-    navList:PropTypes.array.isRequired,
-    //unReadCount:PropTypes.number.isRequired
+    navList:PropTypes.array.isRequired
   }
-
   constructor(props){
     super(props)
-    this.state = {}
+    this.state = {unReadCount:0}
   }
   static contextTypes = {
-    unReadCount:0
+    unReadCount:PropTypes.number
+  }
+  componentWillMount(){
+    this.setState({unReadCount:this.context.unReadCount})
   }
  
   render(){
-    console.log(this.context);
-    let {navList} = this.props
-    const {unReadCount} = this.state
+    //console.log(this.context);
+    let {navList,chatMsgs,userid} = this.props
+   // const {unReadCount} = this.state
     //过滤掉hide为true的列表
     navList=navList.filter(nav=>!nav.hide)
     const path = this.props.location.pathname
-
-    console.log('unReadCount',unReadCount);
+    let unReadCount = getSumMsgs(chatMsgs,userid)
     return(
       <TabBar>
         {

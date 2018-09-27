@@ -3,6 +3,8 @@ import React,{Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {WingBlank,WhiteSpace,Card} from 'antd-mobile'
 import PropTypes from 'prop-types'
+import QueueAnim from 'rc-queue-anim'
+
 
 const Header=Card.Header
 const Body = Card.Body
@@ -14,25 +16,27 @@ class UserList extends Component{
     const {userList} = this.props
     return(
       <WingBlank style={{marginBottom:50,marginTop:50}}>
-        {
-          userList.map(user=>(
-            <div key={user._id}>
-              <WhiteSpace/>
-              <Card onClick={()=>this.props.history.push(`/Chat/${user._id}`)}>
-                <Header
-                  thumb={user.header?require(`../../assets/images/${user.header}.png`):null}
-                  extra={user.username}
-                />
-                <Body>
+        <QueueAnim type='scale' delay={20} >
+          {
+            userList.map(user=>(
+              <div key={user._id}>
+                <WhiteSpace/>
+                <Card onClick={()=>this.props.history.push(`/Chat/${user._id}`)}>
+                  <Header
+                    thumb={user.header?require(`../../assets/images/${user.header}.png`):null}
+                    extra={user.username}
+                  />
+                  <Body>
                   <div>职位:{user.post}</div>
                   {user.company ? <div>公司:{user.company}</div> : null}
                   {user.salary ? <div>月薪:{user.salary}</div> : null}
                   <div>描述:{user.info}</div>
-                </Body>
-              </Card>
-            </div>
-          ))
-        }
+                  </Body>
+                </Card>
+              </div>
+            ))
+          }
+        </QueueAnim>
       </WingBlank>
     )
   }

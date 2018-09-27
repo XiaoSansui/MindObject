@@ -32,12 +32,10 @@ import io from 'socket.io-client'
 
 function initIO(dispatch,userid) {
   if(!io.socket){
-    console.log('initIO启动');
     //连接服务器,得到与服务器的连接对象
     io.socket = io('ws://localhost:4000')
     //绑定监听,接收服务器发送的消息
     io.socket.on('receiveMsg',function (chatMsg) {
-      console.log('接收服务器发送的消息:',chatMsg);
       //只有chatMsgs是当前用户的消息时,才去分发同步action消息
       if(userid ===chatMsg.from || userid ===chatMsg.to){
         dispatch(receiveMsg(chatMsg))
@@ -49,7 +47,6 @@ function initIO(dispatch,userid) {
 //发送消息的异步action
 export const sendMsg=({from,to,content})=>{
   return dispatch =>{
-    console.log('发送消息',{from,to,content});
     io.socket.emit('sendMsg',{from,to,content})
   }
 }
