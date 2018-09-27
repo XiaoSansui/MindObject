@@ -38,32 +38,32 @@ class Main extends Component{
   //给组件对象添加属性
   navList = [
     {
+      path: '/message', // 路由路径
+      component: Message,
+      title: ' 微信',
+      icon: 'message',
+      text: ' 微信',
+    },
+    {
       path: '/laoban', // 路由路径
       component: Laoban,
-      title: ' 大神列表',
+      title: ' 微信',
       icon: 'dashen',
-      text: ' 大神',
+      text: ' 通讯录',
     },
     {
       path: '/dashen', // 路由路径
       component: Dashen,
-      title: ' 老板列表',
+      title: ' 微信',
       icon: 'laoban',
-      text: ' 老板',
-    },
-    {
-      path: '/message', // 路由路径
-      component: Message,
-      title: ' 消息列表',
-      icon: 'message',
-      text: ' 消息',
+      text: ' 通讯录',
     },
     {
       path: '/personal', // 路由路径
       component: Personal,
-      title: ' 用户中心',
+      title: ' 微信',
       icon: 'personal',
-      text: ' 个人',
+      text: ' 我',
     }
   ]
 
@@ -111,7 +111,7 @@ class Main extends Component{
         if(user.type==='laoban'){//隐藏第二个
           navList[1].hide=true
         }else{//隐藏第一个
-          navList[0].hide=true
+          navList[2].hide=true
         }
       }
     return(

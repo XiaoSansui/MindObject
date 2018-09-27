@@ -27,10 +27,10 @@ class UserList extends Component{
                     extra={user.username}
                   />
                   <Body>
-                  <div>职位:{user.post}</div>
-                  {user.company ? <div>公司:{user.company}</div> : null}
-                  {user.salary ? <div>月薪:{user.salary}</div> : null}
-                  <div>描述:{user.info}</div>
+                  <div>姓名:{user.post}</div>
+                  {user.company ? <div>联系方式:{user.company}</div> : null}
+                  {user.salary ? <div>地址:{user.salary}</div> : null}
+                  <div>个人介绍:{user.info}</div>
                   </Body>
                 </Card>
               </div>

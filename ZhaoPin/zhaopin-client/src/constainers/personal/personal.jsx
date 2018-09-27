@@ -32,9 +32,9 @@ class Personal extends Component{
         />
         <List renderHeader={()=>'相关信息'}>
           <Item multipleLine>
-            <Breif>职位:{post}</Breif>
-            <Breif>简介:{info}</Breif>
-            {salary?<Breif>薪资:{salary}</Breif>:null}
+            <Breif>姓名:{post}</Breif>
+            <Breif>个人介绍:{info}</Breif>
+            {salary?<Breif>地址:{salary}</Breif>:null}
           </Item>
         </List>
         <WhiteSpace/>

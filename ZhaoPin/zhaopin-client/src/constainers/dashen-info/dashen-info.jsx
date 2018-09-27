@@ -32,9 +32,9 @@ class DashenInfo extends Component{
     }
     return(
       <div>
-        <NavBar>大神信息完善</NavBar>
+        <NavBar>用户信息完善</NavBar>
         <HeaderSelector setHeader={this.setHeader}/>
-        <InputItem placeholder='请输入求职岗位' onChange={val=>{this.handleChange('post',val)}}>求职岗位:</InputItem>
+        <InputItem placeholder='请输入姓名' onChange={val=>{this.handleChange('post',val)}}>姓名:</InputItem>
         <TextareaItem placeholder='请输入个人介绍' title='个人介绍:' rows={3} onChange={val=>{this.handleChange('info',val)}}/>
         <Button onClick={this.save} type="primary">保&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;存</Button>
       </div>

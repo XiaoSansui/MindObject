@@ -59,7 +59,7 @@ class Register extends Component{
             <WhiteSpace/>
             <ListItem>
               <span>用户类型:</span>&nbsp;&nbsp;&nbsp;
-              <Radio checked={type==='dashen'} onChange={() => {this.handleChnage('type','dashen')}}>大神</Radio>&nbsp;&nbsp;&nbsp;&nbsp;
+              <Radio checked={type==='dashen'} onChange={() => {this.handleChnage('type','dashen')}}>用户</Radio>&nbsp;&nbsp;&nbsp;&nbsp;
               <Radio checked={type==='laoban'} onChange={() => {this.handleChnage('type','laoban')}}>老板</Radio>
             </ListItem>
             <WhiteSpace/>
