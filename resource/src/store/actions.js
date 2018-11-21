@@ -1,90 +1,72 @@
-/*a
+/*
   通过mutation间接更新state 的多个方法对象
 */
 import {
-  reqUsers,
-  reqUserList,
-  reviseUser,
-  addUser,
-  reqNewsList,
-  reviseNews,
-  reqClassify,
-  reviseNewsClassify
-} from '../api'
+  reqHomeContent,
+  reqViedeoItems,
+  reqLableItems,
+  reqArticleItems,
+  reqSoftwareItems,
+  reqSearchContent
+} from '../api/index'
 import {
-  RECEIVE_USERS,
-  RECEIVE_USER_LIST,
-  REVISE_USER,
-  ADD_USER,
-  RECEIVE_NEWS_LIST,
-  RECEIVE_NEWS_MESSAGE,
-  RECEIVE_NEWS_CLASSIFY,
-  ADD_NEWS_CLASSIFY,
-  SAVE_USERS,
+  HOMECONTENT,
+  VIDEOITEMS,
+  LABLEITEMS,
+  ARTICLE,
+  SOFTWARE,
+  SEARCHITEMS,
+  SEARCHCONTENT
 } from './mutation-type'
 
-
 export default {
-  //异步发送登录请求
-  async getUsers({commit},{account,password,isSave,send}){
-    const result = await reqUsers(account,password,isSave,send)
-    if(result.valid===1){ //成功
-      commit(RECEIVE_USERS,{result})
-      commit(SAVE_USERS,{result})
-      let loginInfo = {account,password,isSave,send}
-      window.localStorage.setItem('loginInfo', JSON.stringify(loginInfo));
-      window.localStorage.setItem('users', JSON.stringify(result));
-    }else{
-      commit(RECEIVE_USERS,{result})
-    }
+
+  //异步获取首页主体内容
+  async getHomeContent({commit},page){
+    const result = await reqHomeContent(page);
+    const data = result.extend.pages
+    commit(HOMECONTENT,{data})
   },
 
-  //异步获取用户信息列表
-  async getUserList({commit},{curPage,listrows}){
-    const result = await reqUserList(curPage,listrows)
-    if(result.valid  === 1){
-      commit(RECEIVE_USER_LIST,{result})
-    }
+  //异步获取视频列表
+  async getVideoItems({commit}){
+    const result = await reqViedeoItems();
+    commit(VIDEOITEMS,{result})
   },
 
-  //异步修改用户信息
-  async reviseUser({commit},user){
-    const result = await reviseUser({...user})
-    commit(REVISE_USER,{result})
+  //异步获取文章列表
+  async getArticleItems({commit}){
+    const result = await reqArticleItems();
+    commit(ARTICLE,{result})
   },
 
-  //异步添加用户
-  async addUser({commit},user){
-    const result = await addUser({...user})
-    commit(ADD_USER,{result})
+  //异步获取软件列表
+  async getSoftwareItems({commit}){
+    const result = await reqSoftwareItems();
+    commit(SOFTWARE,{result})
   },
 
-  //异步获取新闻列表
-  async getNewsList({commit},{curPage,listrows}){
-    const result = await reqNewsList(curPage,listrows)
-    if(result.valid  === 1){
-      commit(RECEIVE_NEWS_LIST,{result})
-    }
+  //异步获取热门标签
+  async getLableItems({commit}){
+    const result = await reqLableItems();
+    commit(LABLEITEMS,{result})
+  },
+  //异步搜索内容
+  async getSearchContent({commit},Search_field){
+    const newArr = await reqSearchContent(Search_field);
+    commit(SEARCHCONTENT,{newArr})
+  },
+  //异步保存搜索id
+  async getSearchItems({commit,state},id){
+      let arr=[];
+      let newArr= [];
+      arr = arr.concat(state.videoItems,state.articleItems,state.softwareItems)
+      arr.forEach(item=>{
+        if(item.id===id){
+          newArr.push(item)
+        }
+      })
+    commit(SEARCHITEMS,{newArr})
   },
 
-  //异步发布新闻
-  async receiveNews({commit},news){
-    const result = await reviseNews({...news})
-    commit(RECEIVE_NEWS_MESSAGE,{result})
-  },
-
-  //异步获取新闻分类
-  async getNewsClassify({commit},{curPage,listrows}){
-    const result = await reqClassify(curPage,listrows)
-    if(result.valid  === 1){
-      commit(RECEIVE_NEWS_CLASSIFY,{result})
-    }
-  },
-
-  //异步添加新闻分类
-  //异步发布新闻
-  async addNewsClassify({commit},news){
-    const result = await reviseNewsClassify({...news})
-    commit(ADD_NEWS_CLASSIFY,{result})
-  },
 }

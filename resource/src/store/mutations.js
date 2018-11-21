@@ -1,45 +1,36 @@
 /*
   直接更新state 的多个方法对象
 */
-
 import {
-  RECEIVE_USERS,
-  RECEIVE_USER_LIST,
-  REVISE_USER,
-  ADD_USER,
-  RECEIVE_NEWS_LIST,
-  RECEIVE_NEWS_MESSAGE,
-  RECEIVE_NEWS_CLASSIFY,
-  ADD_NEWS_CLASSIFY,
-  SAVE_USERS
+  HOMECONTENT,
+  VIDEOITEMS,
+  LABLEITEMS,
+  ARTICLE,
+  SOFTWARE,
+  SEARCHITEMS,
+  SEARCHCONTENT
 } from './mutation-type'
 
 export default {
-  [RECEIVE_USERS](state,{result}){
-    state.users=result
+  [HOMECONTENT](state,{data}){
+    state.homeContent = data
   },
-  [RECEIVE_USER_LIST](state,{result}){
-    state.userList=result
+  [VIDEOITEMS](state,{result}){
+    state.videoItems = result
   },
-  [REVISE_USER](state,{result}){
-    state.reviseUser=result
+  [LABLEITEMS](state,{result}){
+    state.lableItems = result
   },
-  [ADD_USER](state,{result}){
-    state.addUser=result
+  [ARTICLE](state,{result}){
+    state.articleItems = result
   },
-  [RECEIVE_NEWS_LIST](state,{result}){
-    state.NewsList=result
+  [SOFTWARE](state,{result}){
+    state.softwareItems = result
   },
-  [RECEIVE_NEWS_MESSAGE](state,{result}){
-    state.NewsMessage=result
+  [SEARCHITEMS](state,{newArr}){
+    state.searchItems = newArr
   },
-  [RECEIVE_NEWS_CLASSIFY](state,{result}){
-    state.newsClassify=result
-  },
-  [ADD_NEWS_CLASSIFY](state,{result}){
-    state.classifyMessage=result
-  },
-  [SAVE_USERS](state,{result}){
-    state.users=result
+  [SEARCHCONTENT](state,{newArr}){
+    state.searchItems = newArr
   },
 }

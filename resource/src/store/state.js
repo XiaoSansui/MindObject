@@ -2,12 +2,12 @@
   包含多个状态对象
 */
 export default {
-  users:{}, //登录成功返回的用户信息
-  userList:{},//用户信息列表
-  reviseUser:{}, //用户信息修改状态
-  addUser:{}, //用户信息添加状态
-  NewsList:{}, //新闻列表
-  NewsMessage:{}, //新闻发布状态
-  newsClassify:{}, //新闻分类列表
-  classifyMessage:{}, //添加新闻分类列表状态
+  homeContent:'',  //首页主体内容
+  videoItems:null,  //视频列表
+  articleItems:null,  //文章列表
+  softwareItems:null,  //软件列表
+  lableItems:null,  //热门标签
+  searchItems:[] , //所有搜索数据
+  saveId:'', //当前标签id
+  saveType:'', //当前标签类别
 }
