@@ -1,30 +1,61 @@
 # resource
 
 > A Vue.js project
+>
+>该项目是基于新版本 Vue的项目,前台客户端客首页推荐的资源内容，包括文章，新闻，软件，视频，等推荐内容，有资源分类标签，资源数据采用分页功能显示。各个分类页面都有联级选择功能。软件和视频的详情页面分别是介绍软件和视频，然后有下载软件、预览视频功能。加入用户留言功能，页面设计。
+采用模块化、组件化、工程化的模式开发。
+## 运行方式 ##
 
-## Build Setup
+#### npm start  / npm run dev ####
+#### 后台管理系统-账号密码：admin ####
 
-``` bash
-# install dependencies
-npm install
+## 具体涉及技术 ##
+1. 使用Vuex实现组件间通信； 
+2. 运用Simditor富文本编辑器实现留言功能板块；
+3. ES7最新语法: async/await；
+4. 使用流行的ajax请求库: axios,来进行与后台交互；
+5. 使用Element-ui组件库实现页面;
+6. 使用canvas实现部分页面特效
+7. 实现了一个页面后台管理功能，通过ajax与后台进行实时同步
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 技术栈 ##
+>前台应用技术架构为: vue + vuex + vue-router + webpack + ES6 + ajax
 
-# build for production with minification
-npm run build
+>后台应用技术架构为: SpringMvc+Spring+Mybitis+ajax+Jsp+JavaBean+Redis
 
-# build for production and view the bundle analyzer report
-npm run build --report
+### 遇到的问题 ###
 
-# run unit tests
-npm run unit
 
-# run e2e tests
-npm run e2e
+#### 组件间传值 ####
 
-# run all tests
-npm test
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- 点击某个资源时，需要跳转到相应页面，但是所有数据都在一个对象中，因此创建了一个状态来保存当前点击资源的ID，在页面加载时将对象根据id过滤出所需要的资源。
+- 遇到的bug：在资源页面上刷新后，无法拿到资源，因为没有点击触发保存状态，无法获取到当前资源的id，解决方案：将当前资源id保存在localStorage中，通过本地访问来获取当前资源id。
+
+#### 数据加载时机 ####
+- 在页面渲染的时候，在mounted生命周期函数中获取页面数据并定义组件，有时候需要定义某个组件，但是该组件需要遍历数据。由于数据有可能还没有返回，因此可以使用this.$nextTick()函数，当页面数据加载完再定义组件，同时可以使用watch监听状态变换，及时更新渲染页面。
+
+#### 资源分类 ####
+- 由于资源繁多，因此根据后台提供的资源标识设计了一个分类标准，使用filter（）方法来过滤相应的数据，同时为每种资源都设置了最新、最热分类选项，根据发布时间、点击量使用sort（）方法来进行降序排序。
+
+#### 跨域问题 ####
+
+- 在本地开发环境中运行时，无法获取到后台返回的数据，原因是前台ajax请求是根据本地ip获取的，而后台暴露的接口地址与前台不一致，因此需要在前台环境中将请求地址重定向至后台暴露的接口地址
+
+        //设置config/index.js中的proxyTable为以下内容
+    	proxyTable: {
+    		'/home': { // 匹配所有以 '/home' 开头的请求路径
+   	 		target: 'http://47.107.83.220', // 代理目标的基础路径
+    		changeOrigin: true, // 支持跨域
+   	   		}
+    	}
+
+
+#### 数据处理 ####
+- 后台返回单个资源界面的主体内容全部都是HTML标签结构，前台v-for输出时显示为字符串，需要在遍历该数据时使用 v-html='' 将该数据转换成HTML结构再进行遍历。
+
+
+## 项目截图 ##
+![](https://i.imgur.com/oVu4Ira.png)
+![](https://i.imgur.com/lcqo5Av.png)
+![](https://i.imgur.com/Idsoz7R.png)

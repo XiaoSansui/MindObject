@@ -10,7 +10,7 @@
         </div>
       </el-header>
       <el-main class="content ">
-        <router-view/>
+          <router-view/>
       </el-main>
       <el-footer class="footer">
           <Footers/>
