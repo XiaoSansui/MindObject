@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e6c42db-3bea-4348-8133-579d66935171" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PigCFT/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PigCFT/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_vue/src/api/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/news_vue/src/api/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showProject/images/resourse.png" beforeDir="false" afterPath="$PROJECT_DIR$/showProject/images/resourse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tackOut-vue/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/check-versions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/vue-loader.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/webpack.base.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/webpack.dev.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/build/webpack.prod.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/common/stylus/mixins.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/compoents/FooterGuide/FooterGuide.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/pages/Msite/Msite.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/pages/Order/Order.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/pages/Profile/Profile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/pages/Search/Search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/static/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tackOut-vue/尚硅谷_vue项目-硅谷外卖.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/src/components/FooterNav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/src/components/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/src/components/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/src/components/image/lunbo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/css/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/css/._aui-flex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/css/._aui-pull-refresh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/css/._aui-slide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._actionsheet_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._actionsheet_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._collapse_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._collapse_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._demo1_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._demo_my_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._demo_order_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._flex_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._flex_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._footer_bar_more_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._footer_bar_more_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._lazyload_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._lazyload_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._sharebox_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._sharebox_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._tab_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._timeline_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/html/._timeline_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._apicloud-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._aui-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._error-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._gril.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._liulangnan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/._load-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/demo/._1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/demo/._2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/demo/._3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._qq-friend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._qq-weibo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._qzone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._sina-weibo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._wx-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/image/share/._wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._aui-actionsheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._aui-collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._aui-lazyload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._aui-popup-new.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._aui-pull-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._aui-sharebox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/__MACOSX/script/._aui-slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/api.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/aui-flex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/aui-iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/aui-pull-refresh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/aui-skin-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/aui-skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/aui-slide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/css/aui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/actionsheet_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/actionsheet_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/btn_bar_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/btn_bar_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/button_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/button_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/card_demo_list_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/card_list_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/card_list_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/chat_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/chat_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/club_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/collapse_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/collapse_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo1_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_bbs_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_list_scroll_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_member_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_moubao_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_moubao_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_my_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_my_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_news_today_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_news_today_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_order_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_order_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_wechat_circle_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_wechat_circle_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_wechat_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_wechat_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_zhihu_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/demo_zhihu_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/dialog_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/dialog_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/flex_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/flex_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/footer_bar_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/footer_bar_more_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/footer_bar_more_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/footer_bar_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/form_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/from_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/grid_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/grid_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/header_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/header_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/iconfont_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/iconfont_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/index_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/info_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/info_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/label_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/label_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/lazyload_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/lazyload_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/list_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/list_night_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/list_night_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/list_swipe_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/list_swipe_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/list_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/popup_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/popup_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/progress_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/progress_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/pull_refresh_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/pull_refresh_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/radio_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/radio_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/range_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/range_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/scroll_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/scroll_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/searchbar_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/searchbar_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/sharebox_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/sharebox_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/slide_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/slide_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/tab_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/tab_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/text_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/text_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/timeline_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/timeline_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/tips_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/tips_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/toast_frm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/html/toast_win.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/icon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/icon/icon150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/apicloud-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/aui-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/demo6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/error-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/gril.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/hongbao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/l1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/l2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/l3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/liulangnan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/load-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/qq-friend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/qq-weibo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/qzone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/sina-weibo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/wx-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/image/share/wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/launch/launch1080x1920.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-actionsheet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-lazyload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-list-swipe-backup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-list-swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-popup-new.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-pull-refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-sharebox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-skin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/AUI/script/aui-toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/demo_fontclass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/demo_symbol.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/demo_unicode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/icon/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyydemo/static/css/reset.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1580726657">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.106" value="1" />
+          <entry key="project.open.time.119" value="1" />
+          <entry key="project.open.time.126" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.72" value="3" />
+          <entry key="project.open.time.73" value="2" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.94" value="1" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="asp" value="1" />
+          <entry key="babelrc" value="3" />
+          <entry key="cmd" value="1" />
+          <entry key="css" value="17" />
+          <entry key="editorconfig" value="2" />
+          <entry key="ent" value="1" />
+          <entry key="eslintignore" value="2" />
+          <entry key="et" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="65" />
+          <entry key="ico" value="3" />
+          <entry key="java" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="302" />
+          <entry key="json" value="14" />
+          <entry key="jsp" value="1" />
+          <entry key="jsx" value="21" />
+          <entry key="md" value="15" />
+          <entry key="png" value="10" />
+          <entry key="project" value="1" />
+          <entry key="styl" value="3" />
+          <entry key="ts" value="7" />
+          <entry key="txt" value="1" />
+          <entry key="vue" value="238" />
+          <entry key="www" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ASP" value="1" />
+          <entry key="CSS" value="17" />
+          <entry key="DTD" value="1" />
+          <entry key="HTML" value="65" />
+          <entry key="Image" value="14" />
+          <entry key="JSON" value="17" />
+          <entry key="JSP" value="1" />
+          <entry key="JSX Harmony" value="21" />
+          <entry key="JavaScript" value="304" />
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="Stylus" value="3" />
+          <entry key="TypeScript" value="7" />
+          <entry key="Vue.js" value="239" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="babelrc" value="7" />
+          <entry key="css" value="45" />
+          <entry key="editorconfig" value="5" />
+          <entry key="eslintignore" value="11" />
+          <entry key="html" value="806" />
+          <entry key="java" value="19" />
+          <entry key="js" value="6937" />
+          <entry key="json" value="20" />
+          <entry key="jsx" value="32" />
+          <entry key="styl" value="1" />
+          <entry key="ts" value="1" />
+          <entry key="vue" value="29045" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="45" />
+          <entry key="HTML" value="806" />
+          <entry key="JSON" value="27" />
+          <entry key="JSX Harmony" value="32" />
+          <entry key="JavaScript" value="6937" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Stylus" value="1" />
+          <entry key="TypeScript" value="1" />
+          <entry key="Vue.js" value="29064" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.eslintrc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-41">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/build/webpack.dev.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/build/webpack.base.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="18" column="5" selection-start-line="11" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="7" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.eslintignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="vue" />
+        <option value="HTML File" />
+        <option value="vue-less" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getContentTxt</find>
+      <find>clearfix</find>
+      <find>carousel</find>
+      <find>class=&quot;itemHead&quot;</find>
+      <find>http://</find>
+      <find>static</find>
+      <find>static/</find>
+      <find>articleList</find>
+      <find>articleItems</find>
+      <find>&lt;span&gt;{{item.title}}&lt;/span&gt;</find>
+      <find>{{index}}</find>
+      <find>footerWrap</find>
+      <find>push</find>
+      <find>http://www.17sucai.com/preview/31419/2018-10-17/jd/index.html#</find>
+      <find>xxx</find>
+      <find>http://47.107.83.220</find>
+      <find>rese</find>
+      <find>./showProject</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>class=&quot;itemHead orange&quot;</replace>
+      <replace>videoItems</replace>
+      <replace>videoList</replace>
+      <replace>softwareItems</replace>
+      <replace>&lt;span class=&quot;hide&quot;&gt;{{item.title}}&lt;/span&gt;</replace>
+      <replace>{{index+1}}</replace>
+      <replace>concat</replace>
+      <replace>javascript:;</replace>
+      <replace>xxxxx</replace>
+      <replace>.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\GitHomes\Githubs\resource\dist</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resource/src/components/Content.vue" />
+        <option value="$PROJECT_DIR$/resource/src/components/Crumbs.vue" />
+        <option value="$PROJECT_DIR$/resource/src/components/Selects.vue" />
+        <option value="$PROJECT_DIR$/resource/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/wyydemo/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/wyydemo/src/router/index.js" />
+        <option value="$PROJECT_DIR$/news_vue/static/utf8-jsp/index.html" />
+        <option value="$PROJECT_DIR$/wyydemo/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/wyydemo/src/main.js" />
+        <option value="$PROJECT_DIR$/news_vue/src/api/ajax.js" />
+        <option value="$PROJECT_DIR$/resource/123.html" />
+        <option value="$PROJECT_DIR$/resource/src/components/articleDetail.html" />
+        <option value="$PROJECT_DIR$/resource/src/components/articleDetail.vue" />
+        <option value="$PROJECT_DIR$/resource/src/html5 canvas文字标签云3D旋转动画特效.html" />
+        <option value="$PROJECT_DIR$/resource/src/page/Comments.vue" />
+        <option value="$PROJECT_DIR$/resource/src/page/AboutUs.vue" />
+        <option value="$PROJECT_DIR$/resource/src/store/mutation-type.js" />
+        <option value="$PROJECT_DIR$/resource/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/resource/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/resource/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/resource/src/store/state.js" />
+        <option value="$USER_HOME$/Desktop/纯css3错误404动画页面下载_files/demo.html" />
+        <option value="$USER_HOME$/AppData/Local/Temp/HZ$D.724.2199/demo.html" />
+        <option value="$PROJECT_DIR$/resource/src/page/Main.vue" />
+        <option value="$PROJECT_DIR$/resource/src/page/Article.vue" />
+        <option value="$PROJECT_DIR$/resource/src/page/Video.vue" />
+        <option value="$PROJECT_DIR$/resource/src/page/Software.vue" />
+        <option value="$USER_HOME$/Desktop/div css京东云官网页面底部样式_files/index.html" />
+        <option value="$PROJECT_DIR$/resource/static/css/jdc-main-footer.css" />
+        <option value="$PROJECT_DIR$/resource/src/components/Nav.vue" />
+        <option value="$PROJECT_DIR$/resource/src/router/index.js" />
+        <option value="$PROJECT_DIR$/resource/static/css/resetHtml.css" />
+        <option value="$PROJECT_DIR$/resource/src/page/Details.vue" />
+        <option value="$PROJECT_DIR$/resource/src/components/Footers.vue" />
+        <option value="$PROJECT_DIR$/resource/src/App.vue" />
+        <option value="$PROJECT_DIR$/resource/src/main.js" />
+        <option value="$PROJECT_DIR$/resource/index.html" />
+        <option value="$PROJECT_DIR$/resource/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/resource/src/api/index.js" />
+        <option value="$PROJECT_DIR$/tackOut-vue/takeaway-client/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/showProject/showProject/index.html" />
+        <option value="$PROJECT_DIR$/showProject/index.html" />
+        <option value="$PROJECT_DIR$/resource/config/index.js" />
+        <option value="$PROJECT_DIR$/resource/dist/index.html" />
+        <option value="$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/main/main.jsx" />
+        <option value="$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/login/login.jsx" />
+        <option value="$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/components/logo/logo.jsx" />
+        <option value="$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/register/register.jsx" />
+        <option value="$PROJECT_DIR$/tackOut-vue/takeaway-client/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/tackOut-vue/takeaway-client/.editorconfig" />
+        <option value="$PROJECT_DIR$/tackOut-vue/takeaway-client/build/webpack.base.conf.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ZhaoPin/ZhaoPin-servers/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ZhaoPin/zhaopin-client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/news_vue/node_modules" />
+    <handled-path value="$PROJECT_DIR$/resource/node_modules" />
+    <handled-path value="$PROJECT_DIR$/tackOut-vue/takeaway-client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/tackOut-vue/takeaway-server/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Note/JS模块化 modules/package.json" />
+      <path value="$PROJECT_DIR$/Note/zepto1.0文档/package.json" />
+      <path value="$PROJECT_DIR$/ZhaoPin/ZhaoPin-servers/package.json" />
+      <path value="$PROJECT_DIR$/ZhaoPin/demo/package.json" />
+      <path value="$PROJECT_DIR$/ZhaoPin/zhaopin-client/package.json" />
+      <path value="$PROJECT_DIR$/news_vue/package.json" />
+      <path value="$PROJECT_DIR$/resource/dist/simditor-2.3.23/package.json" />
+      <path value="$PROJECT_DIR$/resource/dist/static/simditor-2.3.23/package.json" />
+      <path value="$PROJECT_DIR$/resource/package.json" />
+      <path value="$PROJECT_DIR$/resource/static/simditor-2.3.23/package.json" />
+      <path value="$PROJECT_DIR$/showProject/codes/resourse/static/simditor-2.3.23/package.json" />
+      <path value="$PROJECT_DIR$/tackOut-vue/takeaway-client/package.json" />
+      <path value="$PROJECT_DIR$/tackOut-vue/takeaway-server/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="578" />
+    <option name="y" value="4" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Githubs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Githubs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="F:\GitHomes\Githubs\SmallPig\vue_test\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="F:\GitHomes\Githubs\SmallPig\vue_test\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="ts.external.directory.path" value="C:\Work\WebStorm 2018.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\components\logo" />
+      <recent name="F:\GitHomes\Githubs\showProject\showProject\images" />
+      <recent name="F:\GitHomes\Githubs\showProject\showProject\codes\resourse" />
+      <recent name="F:\GitHomes\Githubs\resource\static\css" />
+      <recent name="F:\GitHomes\Githubs\resource\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHomes\Githubs\showProject" />
+      <recent name="F:\GitHomes\Githubs\resource\static" />
+      <recent name="F:\GitHomes\Githubs\resource\src\page" />
+      <recent name="F:\GitHomes\Githubs\resource\src" />
+      <recent name="F:\GitHomes\Githubs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e6c42db-3bea-4348-8133-579d66935171" name="Default Changelist" comment="" />
+      <created>1539519478258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539519478258</updated>
+      <workItem from="1539519479463" duration="1578000" />
+      <workItem from="1539521141389" duration="3555000" />
+      <workItem from="1539564342432" duration="1046000" />
+      <workItem from="1541381142814" duration="1649000" />
+      <workItem from="1541383380079" duration="21097000" />
+      <workItem from="1541411055428" duration="14828000" />
+      <workItem from="1541471113752" duration="12746000" />
+      <workItem from="1541489883450" duration="9170000" />
+      <workItem from="1541551431898" duration="9567000" />
+      <workItem from="1541573825145" duration="9345000" />
+      <workItem from="1541655490785" duration="20057000" />
+      <workItem from="1541724366234" duration="5565000" />
+      <workItem from="1541731933876" duration="4942000" />
+      <workItem from="1541741841873" duration="13894000" />
+      <workItem from="1541983527108" duration="23351000" />
+      <workItem from="1542158385947" duration="6795000" />
+      <workItem from="1542172813703" duration="17205000" />
+      <workItem from="1542260349064" duration="13923000" />
+      <workItem from="1542278267329" duration="3618000" />
+      <workItem from="1542329332633" duration="23185000" />
+      <workItem from="1542415338462" duration="11450000" />
+      <workItem from="1542452406700" duration="4013000" />
+      <workItem from="1542502545210" duration="8927000" />
+      <workItem from="1542514704631" duration="14305000" />
+      <workItem from="1542621228463" duration="3423000" />
+      <workItem from="1542685778345" duration="11704000" />
+      <workItem from="1542761088722" duration="10109000" />
+      <workItem from="1542876525587" duration="403000" />
+      <workItem from="1542886525456" duration="3155000" />
+      <workItem from="1542893196291" duration="1073000" />
+      <workItem from="1542939367981" duration="11765000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="297443000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21709532" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26393443" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resource/src/App.vue</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resource/src/page/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="121" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.485.1014/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="166" selection-start-column="166" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.413.3925/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="154" selection-start-column="154" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/src/components/Footers.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="175" column="14" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#el-tab-pane#0;n#el-tabs#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#el-tab-pane#1;n#el-tabs#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#el-tab-pane#2;n#el-tabs#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#text#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#text#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showProject/请先读我.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showProject/MyProject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showProject/codes/resourse/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#540#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showProject/showProject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showProject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/src/page/Details.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#h3#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#3;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#text#0;n#svg#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/src/page/Article.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/ZhaoPin-servers/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/build/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/message/message.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/personal/personal.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/test/secketIO_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/components/logo/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/components/user-list/user-list.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/chat/chat.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/dashen/dashen.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/dashen-info/dashen-info.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/laoban/laoban.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/redux/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2891">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/redux/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/redux/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/main/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#9#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/config-overrides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/redux/action-types.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/components/logo/logo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/components/header-selector/header-selector.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/components/nav-footer/nav-footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#12#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/login/login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="e#10#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin/zhaopin-client/src/constainers/register/register.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tackOut-vue/takeaway-client/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="5" selection-start-line="11" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

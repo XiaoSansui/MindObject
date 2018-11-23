@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+<title>Map</title>
+<!--引用百度地图API-->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/map.css">
+<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+  <!--百度地图容器-->
+  <div id="wrap" class=".clearfix">    
+        <header id="head">
+            <section class="warp">
+                <ul class="list-head">     
+                    <li><a href="javascript:;">返回首页</a></li>
+                    <li>当前位置：<a href="javascript:;">株洲市</a></li>
+                    <li>地区:<a href="javascript:;">天元区</a></li>
+                    <li><a href="javascript:;">芦淞区</a></li>
+                    <li><a href="javascript:;">荷塘区</a></li>
+                    <li><a href="javascript:;">石峰区</a></li>
+                    <li><a href="javascript:;">云龙示范区</a></li>
+                    <li><a href="javascript:;">株洲县</a></li>
+                    <li><a href="javascript:;">醴陵市</a></li>
+                    <li><a href="javascript:;">攸县</a></li>
+                    <li><a href="javascript:;">茶陵县</a></li>
+                    <li><a href="javascript:;">炎陵县</a></li>
+                </ul>
+                <ul class="list1-head">
+                    <li><a href="javascript:;">登录</a><span>|</span></li>
+                    <li><a href="javascript:;">免费注册</a></li>
+                </ul>
+            </section>
+        </header>
+        <nav id="nav">
+            <ul class="list-nav">
+                <li><a href="javascript:;"><img src="img/logo_name.png"> </a></li>
+                <li>
+                    <span>
+                        <a href="javascript:;">
+                            <img src="img/c_navpic03.png">
+                        </a>
+                    </span>                
+                </li>
+                <li>
+                    <div>
+                        <span>
+                            <a href="javascript:;">
+                                <img src="img/c_navpic01.png">
+                             </a>
+                        </span>
+                        <a href="javascript:;">亲子活动、精品讲座... </a>
+                    </div>
+                    <div class="item">
+                        <span>
+                            <a href="javascript:;">
+                                <img src="img/c_navpic02.png">
+                            </a>
+                            <a href="javascript:;">信息资讯 INFO </a>
+                        </span>
+                    
+                        <ul class="active" style="display: none">
+                            <li> 
+                                <a href="javascript:;">
+                                    <p>FOCUS</p>
+                                    <p>重点推荐</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <p>NEW NOTISE</p>
+                                    <p>最新公告</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">                
+                                    <p>NEW INFO</p>
+                                    <p>最新资讯</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="line"><span></span></li>
+                <li>
+                    <p>
+                        <a href="javascript:;">预约预订 RESERVE</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">培训辅导TRAN|NG</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">活动赛事 ACTIVES</a>
+                    </p>
+                </li>
+                <li class="line"><span></span></li>
+                <li>
+                    <p>
+                        <a href="javascript:;">团队建设TEAM</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">品牌推荐 BRAND</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">成果展示 ACHIEVEMENT</a>
+                    </p>
+                </li>
+                <li class="line"><span></span></li>
+                <li>
+                    <p>
+                        <a href="javascript:;">非遗传承NMCH</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">文体地图 STYLISTIC</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">区县人文 HUMANITIES</a>
+                    </p>
+                </li>
+                <li class="line"><span></span></li>
+                <li>
+                    <p>
+                        <a href="javascript:;">艺普考级 ART EXAM</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">体质监测 PHYSICAL TESTING</a>
+                    </p>
+                    <p>
+                        <a href="javascript:;">配送菜单MENU</a>
+                    </p>
+                </li>
+            </ul>
+            
+        </nav>
+    
+        <center id="center">    
+            <div class="one"><div class="img"><img src="img/wenti.jpg" ></div><div class="line"></div></div>
+            <div class="two">
+                <div class="ul1">
+                    <div class="p"><span>区域</span></div>
+                    <span class="line"></span>
+                    <ul class="list">
+                        <li class="yellow"><a href="javascript:;">全部</a></li>
+                        <li><a href="javascript:;">体育中心</a></li>
+                        <li><a href="javascript:;">天元区</a></li>
+                        <li><a href="javascript:;">芦淞区</a></li>
+                        <li><a href="javascript:;">荷塘区</a></li>
+                        <li><a href="javascript:;">石峰区</a></li>
+                        <li><a href="javascript:;">云龙区</a></li>
+                    </ul>
+                </div>
+                <div class="ul2">
+                    <div class="p2"><span>分类</span></div>
+                    <span class="line2"></span>
+                    <ul class="list2">
+                        <li class="yellow"><a href="javascript:;">全部</a></li>
+                        <li><a href="javascript:;">韵动书屋</a></li>
+                        <li><a href="javascript:;">艺术培训</a></li>
+                        <li><a href="javascript:;">图书馆</a></li>
+                        <li><a href="javascript:;">电影院</a></li>
+                        <li><a href="javascript:;">公共厕所</a></li>
+                        <li><a href="javascript:;">早教</a></li>
+                        <li><a href="javascript:;">保龄球</a></li>
+                        <li><a href="javascript:;">门球</a></li>
+                        <li><a href="javascript:;">高尔夫</a></li>
+                        <li><a href="javascript:;">武术</a></li>
+                        <li><a href="javascript:;">足球培训</a></li>
+                        <li><a href="javascript:;">健身广场舞</a></li>
+                        <li><a href="javascript:;">体育中心</a></li>
+                        <li><a href="javascript:;">天元区</a></li>
+                        <li><a href="javascript:;">芦淞区</a></li>
+                        <li><a href="javascript:;">荷塘区</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="three">
+                <div style="width:1134px;height:650px;border:#ccc solid 1px;" id="dituContent"></div>
+            </div>
+            <div class="four"><p>精彩活动</p><div class="line"></div></div>
+            
+            <div class="five">
+                <ul class="list3">
+                    <li class="box1">
+                        <div><img src="img/h_ditu/h_001.jpg"></div>
+                        <div><p>【还有7天】飞客机器人首届科技节就要来啦！</p></div>
+                       <div>
+                           <p><span><img src="img/h_002.jpg"></span>20 views</p>
+                           <p><span><img src="img/h_001.jpg"></span>0 comments</p>
+                           <p><a href="javascript:">Read More<span><img src="img/h_003.jpg"></span></a></p>
+                        </div>
+                    </li>
+                    <li class="box2">
+                        <div><img src="img/h_ditu/h_002.jpg"></div>
+                        <div><p>《遇见你真好》黄金档，9.9元限量抢！手慢无！！</p></div>
+                       <div>
+                           <p><span><img src="img/h_002.jpg"></span>21 views</p>
+                           <p><span><img src="img/h_001.jpg"></span>0 comments</p>
+                           <p><a href="javascript:">Read More<span><img src="img/h_003.jpg"></span></a></p>
+                        </div>
+                    </li>
+                    <li class="box3">
+                        <div><img src="img/h_ditu/h_003.jpg"></div>
+                        <div><p>【五一歌手大赛】喊你来当评委，大众评审团报名开始啦</p></div>
+                       <div>
+                           <p><span><img src="img/h_002.jpg"></span>22 views</p>
+                           <p><span><img src="img/h_001.jpg"></span>0 comments</p>
+                           <p><a href="javascript:">Read More<span><img src="img/h_003.jpg"></span></a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </center>
+    
+    
+    
+        <footer id="footer">
+            <section class="dingwei">
+            <div class="warp">
+                <section class="top">
+                    <div class="wap">
+                        <div>
+                            <span><a href="javascript:;"><img src="img/17.png"></a></span>
+                            <span><a href="javascript:;"><img src="img/11.jpg"></a></span>
+                        </div>
+                        <div>
+                            <span><a href="javascript:;"><img src="img/17.png"></a></span>
+                            <span><a href="javascript:;"><img src="img/11.jpg"></a></span>
+                        </div>
+                        <p>扫描二维码 到手机浏览</p>
+                        
+                    </div>
+                    <div class="line"></div>
+                    <div class="event">
+                        <span><img src="img/16.png" class="nosf"></span>
+                        <div>
+                            <span><img src="img/222.jpg"></span>
+                            <a href="javascript:;">
+                                【半程马拉松】2018年第五届松<br>
+                                西子半程马拉松
+                            </a>
+                            <p>2018-03-19 17:00</p>
+                        </div>
+                        <div>
+                            <span><img src="img/7.jpg"></span>
+                            <a href="javascript:;">
+                                【骑行】捷安特周六骑行石燕湖
+                            </a>
+                            <p>2018-03-16 17:21</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="tags">
+                        <div><img src="img/2.png"></div>
+                        <a href="javascript:;">预定场馆</a>
+                        <a href="javascript:;">活动场馆</a>
+                        <a href="javascript:;">非遗传承</a>
+                        <a href="javascript:;">文体地图</a>
+                        <a href="javascript:;">区县人文</a>
+                    </div>
+                    <div class="line"></div>
+                    <div class="address">
+                        <span><img src="img/5.png"></span>
+                        <div><span>湖南省株洲市天元区体育中心东北入口</span></div>
+                        <div><p>TEL:<span> 0731 - 28632006</span></p></div>
+                        <div><p>E-mail:<span>service@hunanyundong.com</span></p></div>
+                        <div><span><img src="img/111111.jpg"></span></div>
+                    </div>
+                </section>
+                <div class="bottom-line"></div>
+                <section class="bottom">
+                    <div class="a">
+                        <span class="yellow"><a href="javascript:;">Home</a></span>
+                        <span>::</span>
+                        <span><a href="javascript:;">服务条款</a></span>
+                        <span>::</span>
+                        <span><a href="javascript:;">意见反馈</a></span>
+                        <span>::</span>
+                        <span><a href="javascript:;">关于我们</a></span>
+                    </div>
+                    <div class="b">
+                        <span>株洲市文体广电新闻出版局授权 Copyright @2015-2017湖南韵动文化体育产业发展有限责任公司版权所有 湘ICP备15008273号</span>
+                        <span><img src="img/1.gif"></span>
+                    </div>
+                </section>
+                <section class="gotop">
+                    <a href="#">
+                        <div class="top">
+                             <img src="img/8.png">
+                        </div>
+                    </a>
+                </section>
+            </div>
+        </section>
+        </footer>
+    </div>
+  <!--  -->
+</body>
+
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(113.140431,27.833737);//定义一个中心点坐标
+        map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    
+    initMap();//创建和初始化地图
+</script>
+
+</html>

@@ -1,0 +1,29 @@
+.moveText-drag-nav{
+  .onepx(bottom);
+  height: 177/@rem;
+  box-sizing: border-box;
+  padding: 31/@rem 0 14/@rem 0;
+  background: #eeeeee;
+  >.list{
+    white-space: nowrap;
+    font-size: 0;
+    float: left;
+    &>li{
+      height: 129/@rem;
+      font-size: 1rem;
+      display: inline-block;
+      line-height: 129/@rem;
+      a{
+        display: block;
+        padding: 0 38/@rem;
+        color: #020202;
+        height: 100%;
+        &.active{
+          background: #690;
+          color: #fff;
+        }
+      }
+
+    }
+  }
+}

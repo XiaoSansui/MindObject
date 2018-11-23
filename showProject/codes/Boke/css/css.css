@@ -1,0 +1,422 @@
+/*
+ * 解决高度塌陷问题clearfix
+ */
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix{
+    zoom:1;
+}
+/*html,body{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+/*}*/
+body{
+    background-color: white;
+    position: relative;
+}
+#nav{
+    position: absolute;
+    padding-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(30,30,30,0.3);
+}
+#nav ul{
+    margin-right: 120px;
+    float: right;
+}
+#nav li{
+    padding-top: 5px;
+    float: left;
+}
+#nav li a{
+    color: white;
+    text-shadow:0 0 0 rgba(223,77,105,1);
+    font-size: 1em;
+    margin-left: 30px;
+    transition:1.5s;
+}
+#nav li a:hover{
+    color: red;
+    text-shadow:0 0 100px rgba(0,0,0,0.5);
+
+}
+#nav a{
+    text-decoration: none;
+}
+#nav .MP a{
+    line-height: 0.5em;
+    margin-left: 120px;
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#bj img{
+    margin-top: -100px;
+}
+#text{
+    position: absolute;
+    left:900px;
+    top:215px;
+}
+#text li{
+    float: left;
+}
+#text .p1{
+
+    color: #fff;
+    font-size: 52px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    padding: 60px 0 20px 0;
+
+}
+#text .p2{
+    width: 400px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    border-top: white 2px solid;
+    padding-top: 20px;
+
+}
+#text ul{
+    border-top: white 2px solid;
+    padding-top: 20px;
+
+}
+#text span{
+    padding-left: 20px;
+    margin-left: 10px;
+
+}
+#About .ml{
+
+}
+#About{
+    margin: 0 auto;
+    width: 100vw;
+    /*padding-left: 100px;*/
+    position: relative;
+    top: 100px;
+
+}
+.left{
+    padding-top: 60px;
+    background-color: rgb(237,252,239);
+    text-align: center;
+    width: 350px;
+    height: 425px;
+    float: left;
+    margin-left: 100px;
+}
+.p3{
+    text-align: center;
+    color: #A1B3A4;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    line-height: 25px;
+    font-weight: bold;
+    /*padding: 67px 0 55px;*/
+    padding-bottom: 40px;
+}
+.left .p4{
+    color: #000;
+    padding: 1em ;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.left .p5{
+    padding: 1em ;
+    color: #333;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.left img{
+    border-radius: 50%;
+}
+.left ul{
+    padding-left: 57px;
+}
+.left li{
+    float: left;
+    margin: 5px;
+}
+.center{
+    margin: 0 auto;
+}
+.right {
+    float: right;
+    background-color: rgb(237,252,239);
+    position: absolute;
+    width: 770px;
+    height: 422px;
+    left: 480px;
+}
+.right h2{
+    color: #000;
+    padding: 25px;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.right .p1{
+    padding: 25px 37px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    visibility: visible;
+}
+.right {
+    padding:2em 0;
+}
+.right h3 {
+    color:#000;
+    padding:25px;
+    font-family: 'Cinzel', serif;
+    font-size:25px;
+    line-height:25px;
+    font-weight:bold;
+}
+.right p {
+    padding:25px 37px;
+    font-size:17px;
+    line-height:25px;
+    font-weight:300;
+}
+.right>tbody>tr>td, .right>tbody>tr>th, .right>tfoot>tr>td, .right>tfoot>tr>th, .right>thead>tr>td, .right>thead>tr>th {
+    padding: 10px;
+    border-top:none;
+}
+
+.right li  h4 {
+    float: left;
+    margin-left:6%;
+    font-family: 'Cinzel', serif;
+    font-size:18px;
+    line-height:25px;
+    font-weight:bold;
+
+}
+.right li p{
+    float: right;
+    margin-right: 160px;
+}
+.right p {
+    padding:0;
+}
+.right li{
+    margin-top: 20px;
+}
+.right li span.longline1 {
+    width:267px;
+    height:2px;
+    display:inline-block;
+    background-color:#A1B3A4;
+    margin-top: 3%;
+    margin-left: 62px;
+}
+.right li span.shortline1 {
+    width:33px;
+    height:2px;
+    display:inline-block;
+    background-color:#fff;
+    margin-top: 3%;
+}
+.right li span.longline2 {
+    width:270px;
+    height:2px;
+    display:inline-block;
+    background-color:#A1B3A4;
+    margin-top: 3%;
+    margin-left: 60px;
+}
+.right li span.shortline2 {
+    width:30px;
+    height:2px;
+    display:inline-block;
+    background-color:#fff;
+    margin-top: 3%;
+}
+.right li span.longline3 {
+    width:285px;
+    height:2px;
+    display:inline-block;
+    background-color:#A1B3A4;
+    margin-top: 3%;
+    margin-left: 107px;
+}
+.right li span.shortline3 {
+    width:15px;
+    height:2px;
+    display:inline-block;
+    background-color:#fff;
+    margin-top: 3%;
+}
+.right li span.longline4 {
+    width:276px;
+    height:2px;
+    display:inline-block;
+    background-color:#A1B3A4;
+    margin-top: 3%;
+    margin-left: 60px;
+}
+.right li span.shortline4 {
+    width:24px;
+    height:2px;
+    display:inline-block;
+    background-color:#fff;
+    margin-top: 3%;
+}
+.right li span.longline5 {
+    width:288px;
+    height:2px;
+    display:inline-block;
+    background-color:#A1B3A4;
+    margin-top: 3%;
+    margin-left: 78px;
+}
+.right li span.shortline5 {
+    width:12px;
+    height:2px;
+    display:inline-block;
+    background-color:#fff;
+    margin-top: 3%;
+}
+#Portfolio{
+    width: 100%;
+    padding-top: 80px;
+    font-family: "Helvetica Neue","微软雅黑",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    text-align: center;
+}
+#Portfolio ul{
+    margin-left: 110px;
+}
+#Portfolio ul li{
+    float: left;
+
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#Gallery{
+    width: 100%;
+    padding-top: 80px;
+    margin-left: 30px;
+}
+#Gallery ul li{
+    float: left;
+    margin: 10px;
+}
+#Contact{
+
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+
+}
+#Contact .p4{
+    padding: 5px 0 60px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+}
+#Contact form{
+    width: 45%;
+    margin-left: 100px;
+
+    float: left;
+    color: #999;
+    opacity: 1;
+}
+#Contact .name,.email{
+    margin: 10px 0;
+    width: 550px;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px #9d9d9d solid;
+    border-bottom: 3px #0b0b0b solid;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#Contact .form-control{
+    margin: 10px 0;
+    border-left: none;
+    border-right: none;
+    border-top: 1px #9d9d9d solid;
+    border-bottom: 3px #0b0b0b solid;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 549px; height: 130px;
+}
+#Contact .btn{
+    width: 140px;
+    height: 50px;
+    background-color:rgba(141, 245, 153, 0.1);
+}
+#Contact .info .p1{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+#Contact .info .p2{
+    padding: 15px 0;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+}
+#Contact .d{
+    width: 45%;
+    float: right;
+    position: relative;
+    margin-top: -20px;
+
+}
+#Contact .d div{
+    padding-top: 20px;
+}
+#Contact .d span{
+    display: block;
+    position: absolute;
+    left: 70px;
+    padding-top: 20px;
+}
+
+#Contact .d1 p{
+   margin-left: -220px;
+}
+#Contact .d2 p{
+    margin-left: -230px;
+}
+#Contact .d3 p{
+    margin-left: -185px;
+}
+
+#Contact .d1,.d2,.d3{
+    margin-top: 8px;
+}
+
+

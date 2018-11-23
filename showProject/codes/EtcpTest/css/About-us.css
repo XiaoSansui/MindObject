@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*顶部背景图*/
+.img_bg{
+    width: 100%;
+    min-width: 1200px;
+    height: 520px;
+    background: url(../img/About/companyIntroductionx.png) no-repeat;
+    background-size: 100% 100%;
+}
+.img_bg .text{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    color: #fff;
+}
+.img_bg .text h2{
+    margin-top: 50px;
+    font-size: 36px;
+}
+.img_bg .text p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+/*选项卡切换*/
+.nav{
+    top: 0px;
+    width: 100%;
+    min-width: 1200px;
+    height: 80px;
+    border-bottom: solid 1px #ccc;
+    background: white;
+    z-index: 999;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav ul .on a{
+    color: #fff;
+    background: #1B82E2;
+}
+.nav ul li a{
+    padding: 30px 34px;
+    font-size: 16px;
+    line-height: 80px;
+    color: black;
+    text-decoration: none;
+}
+.box .main{
+    display: none;
+}
+/*企业介绍*/
+.box .intro .text{
+    width: 65%;
+    height: 106px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.box .intro .text p{
+    font-size: 14px;
+    padding: 5px 0;
+    color: #666;
+}
+.box .intro .text:nth-child(2),
+.box .intro .text:nth-child(3){
+    height: 30%;
+}
+.box .intro .img1{
+    width: 100%;
+    min-width: 1200px;
+    height: 555px;
+    background: url(../img/About/conter_img1.png) no-repeat;
+    background-size: 100% 100%;
+}
+.box .intro .img2{
+    width: 100%;
+    min-width: 1200px;
+    height: 555px;
+    background: url(../img/About/conter_img2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*发展历程*/
+.box .history{
+    padding-bottom: 50px;
+}
+.box .history .text{
+    width: 100%;
+    margin-top: 90px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.box .history .text h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.box .history .text p{
+    font-size: 16px;
+    margin: 10px 0 ;
+}
+.box .history .text .xian{
+    width: 100px;
+    height: 1px;
+    background-color: #3494ff;
+    display: inline-block;
+}
+.box .history img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+}
+/*企业文化*/
+.box .culture{
+    padding-bottom: 15px;
+}
+.box .culture .text{
+    width: 100%;
+    min-width: 1200px;
+    margin-top: 90px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.box .culture .text h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.box .culture .text p{
+    font-size: 16px;
+    margin: 10px 0 ;
+}
+.box .culture .text .xian{
+    width: 100px;
+    height: 1px;
+    background-color: #3494ff;
+    display: inline-block;
+}
+.box .culture .word{
+    font-size: 14px;
+    width: 88%;
+    margin: 0 auto 92px auto;
+    color: #666;
+    line-height: 23px;
+    text-align: center;
+}
+.box .culture img{
+    width: 100%;
+    min-width: 1200px;
+}
+/*企业实力*/
+.box .strength .text{
+    width: 100%;
+    min-width: 1200px;
+    margin-top: 90px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.box .strength .text h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.box .strength .text p{
+    font-size: 16px;
+    margin: 10px 0 ;
+}
+.box .strength .text .xian{
+    width: 100px;
+    height: 1px;
+    background-color: #3494ff;
+    display: inline-block;
+}
+.box .strength p{
+    font-size: 14px;
+    width: 88%;
+    margin: 0 auto 92px auto;
+    color: #666;
+    line-height: 23px;
+    text-align: center;
+}
+.box .strength img{
+    width: 100%;
+    min-width: 1200px;
+}
+/*加入我们*/
+.box .join{
+    width: 80%;
+    margin: 3% auto;
+}
+.box .join .join_nav{
+    width: 100%;
+    display: block;
+    height: 72px;
+}
+.box .join .join_nav dl{
+    width: 1080px;
+    margin: 0 auto;
+}
+.box .join .join_nav dl dd{
+    float: left;
+    width: 120px;
+    cursor: pointer;
+    line-height: 72px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+.box .join .join_nav dl dd:hover{
+    color: #1B82E2;
+}
+.box .join .join_nav dl .active{
+    color: #1B82E2;
+}
+.box .join .join_jobName{
+    width: 100%;
+    height: 72px;
+    display: block;
+    background: #F0F0F0;
+}
+.box .join .join_jobName div{
+    float: left;
+    line-height: 72px;
+    font-size: 18px;
+    color: #333;
+    width: 20%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box .join .join_jobNameList{
+    width: 100%;
+}
+.box .join .join_jobNameList p{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0 ;
+}
+
+/*联系我们*/
+.box .contact .text .word{
+    width: 100%;
+    min-width: 1200px;
+    margin-top: 90px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.box .contact .text .word h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.box .contact .text .word p{
+    margin: 10px 0 ;
+}
+.box .contact .text .word .xian{
+    width: 100px;
+    height: 1px;
+    background-color: #3494ff;
+    display: inline-block;
+}
+.box .contact .tel{
+    width: 100%;
+    min-width: 1200px;
+    height: 55px;
+}
+.box .contact .tel .wrapper{
+    width: 775px;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.box .contact .tel .wrapper .lefticon img,
+.box .contact .tel .wrapper .righticon img{
+    width: 55px;
+}
+.box .contact .tel .wrapper .lefticon p ,
+.box .contact .tel .wrapper .righticon p {
+    margin-top: 20px;
+    padding: 0 5px;
+    color: #666;
+    float: right;
+    font-size: 16px;
+}
+.box .contact .tel .wrapper .lefticon p a,
+.box .contact .tel .wrapper .righticon p a{
+    text-decoration: none;
+    color: black;
+}
+.box .contact .four_img{
+    width: 100%;
+    min-width: 1200px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+.box .contact .four_img .img_box{
+    width: 1170px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-bottom: 1px solid #ddd;
+}
+.box .contact .four_img .img_box .list{
+    width: 260px;
+    height: 380px;
+    margin: 0 15px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    float: left;
+}
+.box .contact .four_img .img_box .list .list_box{
+    font-size: 14px;
+}
+.box .contact .four_img .img_box .list .list_box img{
+    width: 100%;
+}
+.box .contact .four_img .img_box .list .list_box .img_text{
+    padding: 5px;
+}
+.box .contact .four_img .img_box .list .list_box .img_text h4{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.box .contact .four_img .img_box .list .list_box .img_text p{
+    margin-top: 10px;
+    padding: 0 5px ;
+    color: #666;
+}
+
+/*地图*/
+.box .contact .map .city{
+    width: 57%;
+    min-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 26px;
+    line-height: 26px;
+}
+.box .contact .map .city .city_f{
+    width: 6%;
+    float: left;
+    display: flex;
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.box .contact .map .city .city_f img{
+    width: 18px;
+    height: 22px;
+    margin-top: 2px;
+}
+.box .contact .map .baidu_map{
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.box .contact .map .baidu_map .baidu_img{
+    position:relative;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+    overflow: hidden;
+    user-select: none;
+    width: 1200px;
+    height: 550px;
+}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+.baidu_map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#dituContent{
+    width: 100%;
+}

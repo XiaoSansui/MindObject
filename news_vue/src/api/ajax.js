@@ -21,6 +21,7 @@ export default function ajax(url,data={},type='GET') {
         url = url + '?' + dataStr
       }
       // 发送 get 请求
+      console.log(url);
       promise = axios.get(url)
     } else {
       // 发送 post 请求
