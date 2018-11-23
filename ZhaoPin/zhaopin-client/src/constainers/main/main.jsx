@@ -40,28 +40,28 @@ class Main extends Component{
     {
       path: '/message', // 路由路径
       component: Message,
-      title: ' 微信',
+      title: ' GuiGu',
       icon: 'message',
-      text: ' 微信',
+      text: ' GuiGu',
     },
     {
       path: '/laoban', // 路由路径
       component: Laoban,
-      title: ' 微信',
+      title: ' GuiGu',
       icon: 'dashen',
       text: ' 通讯录',
     },
     {
       path: '/dashen', // 路由路径
       component: Dashen,
-      title: ' 微信',
+      title: ' GuiGu',
       icon: 'laoban',
       text: ' 通讯录',
     },
     {
       path: '/personal', // 路由路径
       component: Personal,
-      title: ' 微信',
+      title: ' GuiGu',
       icon: 'personal',
       text: ' 我',
     }

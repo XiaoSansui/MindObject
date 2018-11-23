@@ -45,7 +45,7 @@ class Register extends Component{
     }
     return(
       <div>
-        <NavBar>W&nbsp;e&nbsp;C&nbsp;h&nbsp;a&nbsp;t</NavBar>
+        <NavBar>G&nbsp;u&nbsp;i&nbsp;G&nbsp;u&nbsp;</NavBar>
         <Logo/>
         <WingBlank>
           <List>

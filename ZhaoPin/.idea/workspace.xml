@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e30c2c-68aa-4989-8340-3dd561e69115" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/Xiao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tackOut-vue/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/header-selector/header-selector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/header-selector/header-selector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/logo/logo.less" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/logo/logo.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/logo/wx.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/logo/wx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/dashen-selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/dashen-selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/dashen.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/dashen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/laoban-selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/laoban-selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/laoban.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/laoban.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/message-selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/message-selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/message.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/message.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/personal-selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/personal-selected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/personal.png" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/nav-footer/images/personal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/components/user-list/user-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/components/user-list/user-list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/dashen-info/dashen-info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/dashen-info/dashen-info.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/laoban-info/laoban-info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/laoban-info/laoban-info.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/personal/personal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/personal/personal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaopin-client/src/constainers/register/register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/zhaopin-client/src/constainers/register/register.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,21 +21,24 @@
     <session id="318576364">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.16" value="5" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -62,51 +51,51 @@
           <entry key="css" value="1" />
           <entry key="ejs" value="1" />
           <entry key="head-selector" value="1" />
-          <entry key="html" value="2" />
-          <entry key="js" value="290" />
-          <entry key="json" value="13" />
-          <entry key="jsx" value="223" />
+          <entry key="html" value="5" />
+          <entry key="js" value="302" />
+          <entry key="json" value="18" />
+          <entry key="jsx" value="224" />
           <entry key="less" value="30" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="null/ZhaoPin-servers/users" value="2" />
           <entry key="null/ZhaoPinSQL/users" value="9" />
           <entry key="png" value="3" />
           <entry key="secketIO_test" value="1" />
           <entry key="ts" value="1" />
-          <entry key="www" value="9" />
+          <entry key="www" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="12575" />
-          <entry key="json" value="39" />
-          <entry key="jsx" value="14026" />
+          <entry key="json" value="48" />
+          <entry key="jsx" value="14032" />
           <entry key="less" value="285" />
           <entry key="txt" value="57" />
-          <entry key="www" value="41" />
+          <entry key="www" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="EJS" value="1" />
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="5" />
           <entry key="Image" value="3" />
-          <entry key="JSON" value="13" />
-          <entry key="JSX Harmony" value="220" />
-          <entry key="JavaScript" value="300" />
+          <entry key="JSON" value="18" />
+          <entry key="JSX Harmony" value="221" />
+          <entry key="JavaScript" value="315" />
           <entry key="Less" value="30" />
           <entry key="MONGO" value="11" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="TypeScript" value="1" />
           <entry key="TypeScript JSX" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="39" />
-          <entry key="JSX Harmony" value="14026" />
-          <entry key="JavaScript" value="12616" />
+          <entry key="JSON" value="48" />
+          <entry key="JSX Harmony" value="14032" />
+          <entry key="JavaScript" value="12618" />
           <entry key="Less" value="285" />
           <entry key="PLAIN_TEXT" value="57" />
         </counts>
@@ -116,35 +105,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api文档.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/chat/chat.jsx">
+        <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
-              <folding>
-                <element signature="e#9#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaopin-client/src/components/logo/logo.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaopin-client/src/components/header-selector/header-selector.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -190,7 +164,6 @@
         <option value="$PROJECT_DIR$/zhaopin-server/src/constainers/register/register.jsx" />
         <option value="$PROJECT_DIR$/zhaopin-server/src/constainers/login/login.jsx" />
         <option value="$PROJECT_DIR$/ZhaoPin-servers/package.json" />
-        <option value="$PROJECT_DIR$/zhaopin-client/package.json" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/api/ajax.js" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/assets/css/error-msg.css" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/components/logo/logo.jsx" />
@@ -202,7 +175,6 @@
         <option value="$PROJECT_DIR$/zhaopin-client/src/test/secketIO_test.js" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/chat/message.jsx" />
         <option value="D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-server_final/db/models.js" />
-        <option value="$PROJECT_DIR$/ZhaoPin-servers/bin/www" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/index.js" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/dashen/dashen.jsx" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/laoban/laoban.jsx" />
@@ -228,9 +200,12 @@
         <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/personal/personal.jsx" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/register/register.jsx" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/components/logo/logo.less" />
-        <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/components/header-selector/header-selector.jsx" />
         <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/chat/chat.jsx" />
+        <option value="$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx" />
+        <option value="$PROJECT_DIR$/zhaopin-client/build/manifest.json" />
+        <option value="$PROJECT_DIR$/zhaopin-client/package.json" />
+        <option value="$PROJECT_DIR$/ZhaoPin-servers/bin/www" />
       </list>
     </option>
   </component>
@@ -253,6 +228,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/ZhaoPin-servers/package.json" />
+      <path value="$PROJECT_DIR$/demo/package.json" />
       <path value="$PROJECT_DIR$/zhaopin-client/package.json" />
     </packageJsonPaths>
   </component>
@@ -282,151 +258,13 @@
             <path>
               <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header-selector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="logo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="nav-footer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="not-found" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="user-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="dashen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="dashen-info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="laoban-info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaopin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constainers" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="ZhaoPin-servers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ZhaoPin" type="b2602c69:ProjectViewProjectNode" />
               <item name="ZhaoPin" type="462c0819:PsiDirectoryNode" />
               <item name="ZhaoPin-servers" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="PropTypes&#9;null&#9;null&#10;prop&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tackOut-vue" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -447,15 +285,15 @@
     <property name="ts.external.directory.path" value="C:\Work\WebStorm 2018.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client" />
       <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\constainers\chat" />
       <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\components\nav-footer" />
       <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\constainers" />
       <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\components\header-selector\images" />
-      <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\components\logo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHomes\Githubs\ZhaoPin\zhaopin-client\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -531,6 +369,10 @@
       <workItem from="1537935173469" duration="24572000" />
       <workItem from="1538026864682" duration="6698000" />
       <workItem from="1538033915357" duration="3261000" />
+      <workItem from="1538038454671" duration="317000" />
+      <workItem from="1538047387529" duration="26000" />
+      <workItem from="1540349239186" duration="811000" />
+      <workItem from="1540447525347" duration="3925000" />
     </task>
     <task id="LOCAL-00001" summary="聊天功能后台/socketIO实现/头部顶部导航">
       <created>1537146047415</created>
@@ -550,13 +392,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182175000" />
+    <option name="totallyTimeSpent" value="187254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -568,7 +409,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49848714" weight="0.3147541" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49848714" visible="true" weight="0.3065574" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.32786885" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -599,88 +440,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="表情列表/聊天界面/信息列表组件/更换数据库" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/db/db_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648" />
-      </provider>
-    </entry>
-    <entry file="file://D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-server_final/socketIO/socketIO_server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="16" column="9" selection-start-line="15" selection-start-column="46" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-server_final/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="167" column="6" lean-forward="true" selection-start-line="167" selection-start-column="6" selection-end-line="167" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/node_modules/antd-mobile/es/date-picker/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-client_final/src/redux/store.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-client_final/src/components/user-list/user-list.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/utils/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-client_final/src/containers/message/message.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-972">
           <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/api/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -698,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-client_final/src/components/nav-footer/nav-footer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -716,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="128" column="23" lean-forward="true" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -748,10 +497,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhaopin-client/build/static/media/wx.7e059704.png" />
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/build/index.html" />
     <entry file="file://D:/自学资料/（20）尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-client_final/src/redux/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -784,30 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1476">
           <caret line="52" column="10" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="10" />
-          <folding>
-            <element signature="e#48#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/db/modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/config-overrides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -827,9 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-199">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="e#9#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,9 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,9 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
           <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-          <folding>
-            <element signature="e#10#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding>
-            <element signature="e#12#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,30 +611,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-          <folding>
-            <element signature="e#9#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/message/message.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/chat/chat.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2489">
+          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
           <folding>
-            <element signature="e#11#48#0" expanded="true" />
+            <element signature="e#9#46#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/node_modules/mongodb-core/lib/connection/pool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6004">
+          <caret line="316" column="11" selection-start-line="316" selection-start-column="11" selection-end-line="316" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhaopin-client/src/components/logo/logo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="95">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -937,18 +647,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zhaopin-client/src/components/header-selector/header-selector.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="684">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/chat/chat.jsx">
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/constainers/main/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
-          <folding>
-            <element signature="e#9#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/build1/build.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/build/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" selection-start-column="66" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/gzhipin-client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/gzhipin-client/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/config-overrides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/db/db_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/db/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaopin-client/src/api/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api文档.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhaoPin-servers/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
