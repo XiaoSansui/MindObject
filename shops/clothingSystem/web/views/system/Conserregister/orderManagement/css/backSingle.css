@@ -1,0 +1,25 @@
+body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.backSingfather{
+			margin:0px auto; 
+			width:1200px;
+			height:600px;
+			
+}
+.qordsta1{
+	
+			text-align:center;
+			margin:0px auto; 
+			padding-left: 20px;
+			font-size: 22px;
+			font-weight:bold;
+			color: red;
+}
+.qordsta2{
+			text-align:center;
+			margin:0px auto; 
+			padding-left: 20px;
+			font-weight:bold;
+}

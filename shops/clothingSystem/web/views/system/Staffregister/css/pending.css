@@ -1,0 +1,25 @@
+	body{
+	background: url(../../../../images/login_bg.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+	.pendfather{
+		 margin:0px auto; 
+		 width: 800px;
+		 height: 600px;
+		 
+		}
+		.pendbut{
+		
+		text-align:center;
+		width: 122px;
+		height: 32px;
+		margin:0px auto; 
+		}
+		.pendordertxt{
+		color: red;
+		text-align:center;
+		font-size: 22px;
+		font-weight:bold;
+		}
+		
+		

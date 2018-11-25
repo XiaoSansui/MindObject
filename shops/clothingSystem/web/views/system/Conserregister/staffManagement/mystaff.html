@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    	作者：TOP
+    	时间：2018-11-01
+    	描述：员工管理界面（由管理员点击进入，可对员工信息增删改查）
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../../base/layui-v2.4.3/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../../../../base/font-awesome-4.7.0/css/font-awesome.css" media="all" />
+		<link rel="stylesheet" href="css/mystaff.css" media="all" />
+	</head>
+	<style>
+		
+		
+	</style>
+	<body>
+		<div class="mystaff1">
+			<div class="mystaff1_one">员工管理</div>
+			<div class="mystaff1_two">店铺名字</div>
+			<div class="mystaff1_two">商家号：*****</div>
+			<div class="mystaff1_two"><button class="returnindexCon">主界面</button></div>
+		</div>
+		<div class="mystaff2">
+			<div class="mystaff2_one"><label>姓名：</label><input type="text"/></div>
+			<div class="mystaff2_one"><label>工号：</label><input type="text"/></div>
+			<div class="mystaff2_one" style="float: left;"><button>查询</button></div>
+			<div class="mystaff2_two"><button class="addmystaff">添加员工</button></div>
+		</div>
+		<div class="mystaff3">
+			<form class="layui-form" action="#" >
+				<table class="layui-table" lay-size="sm">
+					<colgroup>
+					    <col width="80">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">   
+					    	<col width="100">   
+					</colgroup>
+				  <thead>
+				    <tr>
+						<th>序号</th>
+						<th>工号</th>
+						<th>登陆密码</th>
+						<th>姓名</th>
+						<th>性别</th>
+						<th>联系方式</th>	
+						<th>出生日期</th>
+						<th>身份证号</th>						
+						<th>操作</th>	
+				    </tr> 
+				  </thead>
+				  <tbody class="">
+				  	<tr>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td><input type="button" value="修改信息" class="setmystaffs"/>&nbsp;
+				  			<input type="button" value="删除"/></td>
+				  	</tr>
+				  </tbody>
+				</table>
+			</form>
+		</div>
+		<script src="../../../../base/js/jquery-1.11.3.min.js"></script>
+		<script src="../../../../base/layui-v2.4.3/layui/layui.js"></script>
+		<script type="text/javascript" src="js/mystaff.js">
+		
+		</script>
+	</body>
+</html>

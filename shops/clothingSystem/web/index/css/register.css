@@ -1,0 +1,28 @@
+body{
+			background:url(../../images/login_bg.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+		}
+.registfather{
+		margin:0px auto; 
+		width: 500px;
+		height: 600px;
+	}
+	.regist0{
+		color: red;
+		padding-top: 20px;
+		text-align:center;
+		font-size: 28px;
+	}
+	.regist1{
+		float: right;
+		padding-right:70px;
+		padding-top: 20px;
+		text-align:center;
+		font-size: 22px;
+	}
+	.regist2{
+		font-size: 20px;
+		padding-left: 150px;
+		padding-top: 20px;
+	}
+	

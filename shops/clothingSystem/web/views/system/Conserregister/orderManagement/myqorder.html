@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    	作者：TOP
+    	时间：2018-11-01
+    	描述：订单查询界面（由管理员点击进入，查询订单）
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../../base/layui-v2.4.3/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../../../../base/font-awesome-4.7.0/css/font-awesome.css" media="all" />
+		<link rel="stylesheet" href="css/myqorder.css" media="all" />
+	</head>
+	<style>
+	
+	</style>
+	<body>
+		<div>
+			<div class="qordsta1" >订单查询：</div>
+			<div class="qordsta2"><input id="qordsta2_one" placeholder="请输入您的订单号"/></div>
+			<div class="qordsta3"><button>查询</button></div>	
+			<div class="qordsta3"><button class="sbackmyitems">退单商品查询</button></div>
+			<div class="qordsta3"><button>全部商品订单</button></div>
+			<div class="qordsta3"><button style="background:yellow;" class="returnindexCon">主界面</button></div>
+			<div>
+				<form class="layui-form" action="#" >
+				<table class="layui-table" lay-size="sm">
+					<colgroup>
+					    <col width="110">
+					    <col width="110">
+					    <col width="110">
+					    <col width="110">
+					    <col width="110">  
+					    <col width="110">
+					     <col width="110">
+					    <col width="110">
+					    <col width="110">
+					</colgroup>
+				  <thead>
+				    <tr>
+						<th>商家号</th>
+						<th>订单号</th>
+						<th>总金额</th>
+						<th>实付金额</th>
+						<th>找零</th>	
+						<th>收银员姓名</th>
+						<th>下单时间</th>
+						<th>是否退单</th>
+						<th>操作</th>
+				    </tr> 
+				  </thead>
+				  <tbody class="">
+				  	<tr>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td><input type="button" value="查看此订单商品信息" class="selectmyqorder"/></td>
+				  	</tr>
+				  </tbody>
+				</table>
+			</form>
+			</div>
+		</div>
+		<script src="../../../../base/js/jquery-1.11.3.min.js"></script>
+		<script src="../../../../base/layui-v2.4.3/layui/layui.js"></script>
+		<script type="text/javascript" src="js/myqorder.js"></script>
+	</body>
+</html>

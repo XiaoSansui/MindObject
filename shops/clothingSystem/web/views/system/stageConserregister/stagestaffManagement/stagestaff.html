@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    	作者：TOP
+    	时间：2018-11-01
+    	描述：员工管理界面（由管理员点击进入，可对员工信息增删改查）
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../../base/layui-v2.4.3/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../../../../base/font-awesome-4.7.0/css/font-awesome.css" media="all" />
+		<link rel="stylesheet" href="css/stagestaff.css" media="all" />
+	</head>
+	<style>
+		
+		
+	</style>
+	<body>
+		<div class="stagestaff1">
+			<div class="stagestaff1_one">员工信息</div>
+			<div class="stagestaff1_two">店铺名字</div>
+			<div class="stagestaff1_two">商家号：*****</div>
+			<div class="stagestaff1_two"><button class="returnindexCon">主界面</button></div>
+				<div class="stagestaff1_two"><button class="return">返回</button></div>
+		</div>
+		<div class="stagestaff2">
+			<div class="stagestaff2_one"><label>姓名：</label><input type="text"/></div>
+			<div class="stagestaff2_one"><label>工号：</label><input type="text"/></div>
+			<div class="stagestaff2_one" style="float: left;"><button>查询</button></div>
+			<div class="stagestaff2_one" style="float: left;"><button class="selectonline">查看员工登陆时间信息</button></div>
+		</div>
+		<div class="stagestaff3">
+			<form class="layui-form" action="#" >
+				<table class="layui-table" lay-size="sm">
+					<colgroup>
+					    <col width="80">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">   
+					    <col width="100">  
+					    <col width="100">
+					    <col width="100">
+					    <col width="120">
+					</colgroup>
+				  <thead>
+				    <tr>
+						<th>序号</th>
+						<th>工号</th>
+						<th>登陆密码</th>
+						<th>姓名</th>
+						<th>性别</th>
+						<th>联系方式</th>	
+						<th>出生日期</th>
+						<th>身份证号</th>						
+						<th>商家号</th>
+						<th>商家名称</th>	
+						<th>操作</th>	
+				    </tr> 
+				  </thead>
+				  <tbody class="">
+				  	<tr>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>	
+				  		<td>10086</td>	
+				  		<td><input type="button" class="selectonline" value="查看登陆时间信息"/></td>	
+				  	</tr>
+				  </tbody>
+				</table>
+			</form>
+		</div>
+		<script src="../../../../base/js/jquery-1.11.3.min.js"></script>
+		<script src="../../../../base/layui-v2.4.3/layui/layui.js"></script>
+		<script type="text/javascript" src="js/stagestaff.js">
+		
+		</script>
+	</body>
+</html>

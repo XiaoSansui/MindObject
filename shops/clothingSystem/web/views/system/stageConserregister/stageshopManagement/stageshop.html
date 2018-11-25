@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    	作者：TOP
+    	时间：2018-11-01
+    	描述：订单查询界面（由管理员点击进入，查询订单）
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../../base/layui-v2.4.3/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../../../../base/font-awesome-4.7.0/css/font-awesome.css" media="all" />
+		<link rel="stylesheet" href="css/stageshop.css" media="all" />
+	</head>
+	<style>
+	
+	</style>
+	<body>
+		<div>
+			<div class="qordsta1" >商家查询：</div>
+			<div class="qordsta2"><input id="qordsta2_one" placeholder="请输入商家号"/></div>
+			<div class="qordsta3"><button>查询</button></div>	
+			<div class="qordsta3"><button>全部商家</button></div>
+			<div class="qordsta3"><button>已删除商家</button></div>
+			<div class="qordsta3"><button>未删除商家</button></div>
+			<div class="qordsta3"><button style="background:yellow;" class="returnindexCon">主界面</button></div>
+			<div>
+				<form class="layui-form" action="#" >
+				<table class="layui-table" lay-size="sm">
+					<colgroup>
+					    <col width="50">
+					    <col width="50">
+					    <col width="50">
+					    <col width="50">
+					    <col width="50">  
+					    <col width="50">
+					     <col width="50">
+					    <col width="50">
+					    <col width="200">
+					</colgroup>
+				  <thead>
+				    <tr>
+						<th>商家号</th>
+						<th>商家名称</th>
+						<th>注册时间</th>
+						<th>管理员姓名</th>
+						<th>管理员密码</th>	
+						<th>联系方式</th>
+						<th>下单时间</th>
+						<th>是否删除</th>
+						<th>操作</th>
+				    </tr> 
+				  </thead>
+				  <tbody class="">
+				  	<tr>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>
+				  			<input type="button" value="查看商品信息" class="selectiems"/>&nbsp;	
+				  			<input type="button" value="查看订单信息" class="selectorder"/>&nbsp;
+				  			<input type="button" value="查看员工信息" class="selectstaff"/>&nbsp;
+				  			<input type="button" value="查看资产信息" class="selectonlines"/>&nbsp;
+				  		    <input type="button" value="删除" class="deleteshop"/>
+				  		</td>
+				  	</tr>
+				  </tbody>
+				</table>
+			</form>
+			</div>
+		</div>
+		<script src="../../../../base/js/jquery-1.11.3.min.js"></script>
+		<script src="../../../../base/layui-v2.4.3/layui/layui.js"></script>
+		<script type="text/javascript" src="js/stageshop.js"></script>
+	</body>
+</html>

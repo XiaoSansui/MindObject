@@ -1,0 +1,21 @@
+	body{
+	background: url(../../../../images/login_bg.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+	.qordsta1{
+		color: red;
+			padding-left: 20px;
+			font-size: 22px;
+			font-weight:bold;
+		}
+		#qordsta2_one{
+			width: 200px;
+			height: 22px;
+		}
+		.qordsta2{
+			padding-left: 70px;
+		}
+		#qordsta2_two{
+			width: 100px;height:27px;
+		}
+		

@@ -1,0 +1,38 @@
+body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.addmyitemsfather{
+		width: 380px;
+		height: 510px;
+		margin: 0px auto;
+	}
+	.addmyitems_one{
+		color: red;
+		font-size: 26px;
+		margin-left: 10px;
+	}
+	.addmyitems_two{
+		width: 350px;
+		font-size: 16px;
+		margin-left: 15px;
+		margin-top: 10px;
+		color: darkblue;
+	}
+	.addmyitems_two input{
+		width: 200px;
+		font-size: 14px;
+	}
+	.addmyitems_two select{
+		font-size: 14px;
+		width: 80px;
+	}
+	.addmyitems_three{
+		margin: 0px auto;
+		width: 200px;
+	}
+	.addmyitems_three button{
+		width: 200px;
+		height: 30px;
+		margin-top: 20px;
+	}

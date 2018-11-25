@@ -1,0 +1,27 @@
+	body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+	.qordsta1{
+		color: red;
+			padding-left: 20px;
+			font-size: 22px;
+			font-weight:bold;
+		}
+		#qordsta2_one{
+			width: 200px;
+			height: 22px;
+		}
+		.qordsta2{
+			padding-left: 70px;
+			float: left;
+		}
+		.qordsta3{
+			width: 100px;
+			height:27px;
+			float: left;
+		}
+		.qordsta3 button{
+			width: 100px;
+			height: 27px;
+		}

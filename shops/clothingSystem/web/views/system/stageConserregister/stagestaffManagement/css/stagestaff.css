@@ -1,0 +1,58 @@
+body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.stagestaff1{
+			width: 1000px;
+			height: 80px;
+			margin: 0px auto;
+			border:1px solid  #4E5465;
+			background: aquamarine;
+		}
+		.stagestaff2{
+			width: 1000px;
+			height: 100px;
+			margin: 0px auto;
+			border:1px solid  #4E5465;
+			border-radius:15px;
+			
+		}
+		.stagestaff3{
+			width: 1000px;
+			height: 440px;
+			margin: 0px auto;
+			
+		}
+		.stagestaff1_one{
+			font-size: 30px;
+			margin-left: 20px;
+			margin-top: 20px;
+			float: left;
+		}
+	    .stagestaff1_two{
+	    	float: left;
+	    	width: 110px;
+	    	margin-left: 60px;
+	    	margin-top: 40px;
+	    }
+	    .stagestaff1_two button{
+	    	background: yellow;
+	    	width: 100px;
+	    	margin-left: 50px;
+	    }
+	    .stagestaff2_one{
+	    	width: 280px;
+	    	margin-left: 30px;
+	    	font-size: 16px;
+	    	padding-top: 5px;
+	    }
+	    .stagestaff2_one button{
+	    	width: 247px;
+	    }
+	    .stagestaff2_two{
+	    	padding-top:6px;
+	    	font-size: 16px;
+	    }
+	    .stagestaff2_two button{
+	    	width: 150px;
+	    }

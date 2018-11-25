@@ -1,0 +1,122 @@
+body{
+	background: url(../../images/login_bg.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.syjm1{
+	width: 1200px;
+	height: 90px;
+	background: red;	
+	border:1px solid #454545;
+}
+.syjmfathers{
+	width: 1210px;
+	background: aqua;
+	margin-left: 7%;
+	height: 600px;
+}
+.syjm1_one{
+	float: left;
+	width: 400px;
+	height: 60px;
+	background: yellow;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.syjm1_two{
+	width: 700px;
+	float: left;
+	padding-top: 60px;
+	padding-left: 60px;
+}
+.syjm2{
+	float: left;
+	border:1px solid #454545;
+	width: 600px;
+	background: blueviolet;
+	height: 425px;
+}
+.syjm3{
+	border:1px solid #454545;
+	float: left;
+	width: 589px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.syjm4{
+	border:1px solid #454545;
+	float: left;
+	width: 600px;
+	background: blueviolet;
+	height: 400px;
+}
+.syjm5{
+	margin-top: -39px;
+	float: left;
+	border:1px solid #454545;
+	width: 595px;
+	background:yellow;
+	height: 32px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.syjm6{
+	float: left;
+	width: 1205px;
+	height: 43px;
+	background: blue;
+}
+#ination{
+	float: left;
+	width: 100px;
+}
+h3{
+	display: inline;
+}
+#xd1{
+	float: left;
+	padding-left: 10px;
+	width: 180px;
+	background: yellow;
+}
+#xd2{
+    float: left;
+    padding-left: 10px;
+    width: 120px;
+}
+#xd4{
+         	float: left;
+    padding-left: 10px;
+}
+#xd5{
+   	float: left;
+   	padding-left: 10px;
+   	margin-top: 8px;
+}
+#xd6{
+   	float: left;
+   	margin-left: 60px;
+   	margin-top: 6px;
+}
+#xd7{
+   	float: left;
+   	margin-top: 6px;
+   	margin-left: 30px
+}
+ #jsyy1{
+    float: left;
+    padding-left: 10px;
+    width: 400px;
+    background:red;
+    margin-top:15px;
+}
+#jsyy2{
+    float: left;
+    padding-left: 669px;
+    margin-top:15px;
+}
+#jsyy3{
+    width: 120px;
+    background: red;
+}

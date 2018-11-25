@@ -1,0 +1,44 @@
+body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.addmystafffather{
+			margin: 0px auto;
+			width: 280px;
+			height: 360px;
+		}
+		.addmystaff_one{
+			font-size:32px;
+			margin-left: 10px;
+			color: red;
+		}
+		.addmystaff_two{
+			font-size: 18px;
+			margin-left: 15px;
+			margin-top: 10px;
+			color: darkblue;
+        }
+        .addmystaff_two input{
+        	float:right;
+        	margin-right: 20px;
+        	height: 20px;
+        	width: 140px;
+        	font-size: 14px;
+        }
+        .addmystaff_three{
+        	padding-top: 30px;
+        	margin-top: 50px;
+        	width: 200px;
+        	margin: 0px auto;
+        }
+         .addmystaff_three button{
+         	width: 200px;
+         	height: 25px;
+         }
+         .addmystaff_two select{
+         	float:right;
+        	margin-right: 70px;
+        	height: 20px;
+        	width: 50px;
+        	font-size: 14px;
+         }

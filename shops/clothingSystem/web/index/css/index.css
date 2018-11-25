@@ -1,0 +1,33 @@
+		body{
+			background:url(../../images/login_bg.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+		}
+		.indexfather{
+			opacity: 0.9;
+			border:1px solid  darkgrey;
+			margin-left: 38%;
+			margin-top: 10px;
+			width: 360px;
+			height: 380px;
+			background: #FDDFDF;
+		}
+		.xhy_1002{
+			float: left;
+			margin-left: 80px;
+			margin-top: 300px;
+		}
+		#head_h2 {
+			text-shadow: #FF0000 0 0 5px;
+			color: white;
+			font-size: 40px
+		}
+	    .head {
+			width: 620px;
+			height: 60px;
+			margin-left: 29%;
+			padding-left: 10px;
+		}
+		.indeed{
+			margin-left: 15%;
+			padding-top: 20px;
+		}

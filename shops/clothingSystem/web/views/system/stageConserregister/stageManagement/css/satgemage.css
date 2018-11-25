@@ -1,0 +1,28 @@
+body {
+			background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+		}
+		.myshopfather {
+			margin-top: 100px;
+			margin: 0px auto;
+			width: 300px;
+			height: 300px;
+			font-size: 18px;
+		}
+		
+		.myshop1 {
+			margin-left: 10px;
+			margin-top: 10px;
+			background: blanchedalmond;
+		}
+		
+		.myshop2 {
+			text-align: center;
+			padding-top: 20px;
+		}
+		
+		.myshop2but {
+			margin-left: 10px;
+			width: 290px;
+			height: 26px;
+		}

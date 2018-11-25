@@ -1,0 +1,71 @@
+body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.myonline1{
+			width: 1000px;
+			height: 80px;
+			margin: 0px auto;
+			border:1px solid  #4E5465;
+			background: aquamarine;
+		}
+		.myonline2{
+			width: 1000px;
+			height: 100px;
+			margin: 0px auto;
+			border:1px solid  #4E5465;
+			border-radius:15px;
+		}
+		.myonline3{
+			width: 1000px;
+			height: 440px;
+			margin: 0px auto;
+			
+		}
+		.myonline1_one{
+			font-size: 30px;
+			margin-left: 20px;
+			margin-top: 20px;
+			float: left;
+		}
+	    .myonline1_two{
+	    	float: left;
+	    	width: 120px;
+	    	margin-left: 60px;
+	    	margin-top: 40px;
+	    }
+	    .myonline1_two button{
+	    background: yellow;
+	    	width: 100px;
+	    	margin-left: 50px;
+	    }
+	    .myonline2_one{
+	    	width: 280px;
+	    	margin-left: 30px;
+	    	font-size: 16px;
+	    	padding-top: 5px;
+	    }
+	    .myonline2_one button{
+	    	width: 247px;
+	    }
+	    .myonline2_two{
+	    	padding-top:6px;
+	    	font-size: 16px;
+	    }
+	    .myonline2_three{
+	    	margin-top: 10px;
+	    	float: left;
+	    	margin-left: 30px;
+	    	width: 300px;
+	    	font-size: 16px;
+	    }
+	    .myonline2_three button{
+	    	width: 150px;
+	    	float: left;
+	    }
+	    .myonline2_three select{
+	    	font-size: 14px;
+	    	width: 80px;
+	    	float: left;
+	    }
+		

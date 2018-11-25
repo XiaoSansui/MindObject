@@ -1,0 +1,78 @@
+body{
+			background:url(../../images/login_bg.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+		}
+		#main {
+			opacity: 0.8;
+			width: 400px;
+			height: 320px;
+			margin-left:36%;
+			margin-top: 60px;
+			background-color:  #FDDFDF;
+			border-radius: 10px;
+			color:  #737383;
+		}
+		#main h3 {
+			
+			text-align: center;
+			color: #0000FF;
+			font-size: 25px;
+			padding: 10px;
+		}
+		#center {
+			width: 600px;
+			margin-left:7%;
+			margin-top: 10px;
+			color: #333333 ;
+		}
+		#center input{
+			height: 40px;
+			width: 350px;
+		}
+		#center label{
+			 font-size:18px;
+		}
+		#dlloger{
+			margin-left:28%;
+			margin-top: 40px;
+		}
+		#aa{
+			float: left;
+			margin-left:1%;
+			background:  #FDDFDF;
+			border:0;
+			text-decoration:underline;
+		    margin-left:5%;
+		    margin-top:15px;
+		}
+		.xhy_1003{
+			 margin-left:8%;
+			float: left;
+			margin-top: 130px;
+		}
+		#bb{
+
+			text-decoration:underline;
+			background:  #FDDFDF;
+			border:0;
+		    margin-left:58%;
+		    margin-top:15px;+
+		}
+		.sy_head{
+		    text-align: center;
+			margin-left:1%;
+			margin-top:40px;
+			text-shadow: #FF0000 0 0 5px;
+			color: white;
+			font-size: 40px
+		}
+		.yzmlogin{
+			margin-left: 50px;
+		}
+		#yzmlogtext{
+			width: 50px;
+			height:20px;
+		}
+		.yzmlogins{
+			color: blue;
+		}

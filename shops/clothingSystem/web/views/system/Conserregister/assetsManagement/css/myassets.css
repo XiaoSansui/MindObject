@@ -1,0 +1,82 @@
+body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.myassets1{
+			width: 1200px;
+			height: 80px;
+			margin: 0px auto;
+			border:1px solid  #4E5465;
+			background: aquamarine;
+		}
+		.myassets2{
+			width: 1200px;
+			height: 100px;
+			margin: 0px auto;
+			border:1px solid  #4E5465;
+			border-radius:15px;
+			
+		}
+		.myassets3{
+			width: 1200px;
+			height: 440px;
+			margin: 0px auto;	
+		}
+		.myassets1_one{
+			font-size: 30px;
+			margin-left: 20px;
+			margin-top: 20px;
+			float: left;
+			color: red ;
+		}
+	    .myassets1_two{
+	    	color: red;
+	    	float: left;
+	    	width: 220px;
+	    	margin-left: 60px;
+	    	margin-top: 40px;
+	    }
+	    .myassets1_two button{
+	    	background:yellow;
+	    	width: 100px;
+	    	margin-left: 50px;
+	    }
+	    .myassets2_one{
+	    	width: 280px;
+	    	margin-left: 30px;
+	    	font-size: 16px;
+	    	padding-top: 5px;
+	    }
+	    
+	    .myassets2_one button{
+	    	width: 247px;
+	    }
+	    .myassets2_two{
+	    	padding-top:6px;
+	    	font-size: 16px;
+	    }
+	    .myassets2_two button{
+	    	width: 150px;
+	    }
+	    .myassets2_three{
+	    	width: 270px;
+	    	margin-left: 30px;
+	    	font-size: 16px;
+	    	padding-top: 5px;
+	    	float: left
+	    }
+	    .myassets2_three select{
+	    	width: 80px;
+	    	font-size: 14px;
+	    }
+	    .myassets2_three button{
+	    	width: 160px;
+	    }
+	    .myassets2_four{
+	    	width: 300px;
+	    	margin-left: 10px;
+	    	font-size: 16px;
+	    	padding-top: 5px;
+	    	font-size: 22px;
+	    }
+		

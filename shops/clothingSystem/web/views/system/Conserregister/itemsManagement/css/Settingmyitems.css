@@ -1,0 +1,39 @@
+	body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+    }
+	.setmyitemsfather{
+		width: 380px;
+		height: 510px;
+		
+		margin: 0px auto;
+	}
+	.setmyitems_one{
+		color: red;
+		font-size: 26px;
+		margin-left: 10px;
+	}
+	.setmyitems_two{
+		color: darkblue;
+		width: 350px;
+		font-size: 16px;
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+	.setmyitems_two input{
+		width: 200px;
+		font-size: 14px;
+	}
+	.setmyitems_two select{
+		font-size: 14px;
+		width: 80px;
+	}
+	.setmyitems_three{
+		margin: 0px auto;
+		width: 200px;
+	}
+	.setmyitems_three button{
+		width: 200px;
+		height: 30px;
+		margin-top: 20px;
+	}

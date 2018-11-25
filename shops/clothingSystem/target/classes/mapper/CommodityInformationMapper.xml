@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dc.dao.CommodityInformationDao">
+    <select id="selectAllByPage" resultType="com.dc.pojo.CommodityInformation">
+        select * from commodity_information where is_deleteitems=1
+        <if test="likeName!=null">
+        and merchant_id like concat('%',#{likeName},'%')
+        </if>
+    </select>
+</mapper>

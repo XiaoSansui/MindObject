@@ -1,0 +1,24 @@
+body{
+	background: url(../../../../images/login_bg.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}
+.backSingfather{
+			margin:0px auto; 
+			width:1200px;
+			height:600px;
+			
+}
+.qordsta1{
+	        color: red;
+			text-align:center;
+			margin:0px auto; 
+			padding-left: 20px;
+			font-size: 22px;
+			font-weight:bold;
+}
+.qordsta2{
+			text-align:center;
+			margin:0px auto; 
+			padding-left: 20px;
+			font-weight:bold;
+}

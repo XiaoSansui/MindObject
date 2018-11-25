@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<!--
+    作者：TOP
+    时间：2018-11-01
+    描述：收银销售界面（由收银员点击开始营业进入，可以进行订单支付、查询订单、退单）
+    注：点击营业结束，将清空当天保存的订单，计算当天所有订单营业额。
+-->
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="../../../base/layui-v2.4.3/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="../../../base/font-awesome-4.7.0/css/font-awesome.css" media="all" />
+	<link rel="stylesheet" href="../../../index/css/indexStaff.css"  media="all"/>
+</head>
+
+<style>
+
+</style>
+<body>
+
+<div class="syjmfathers">
+	<div class="syjm1">
+		<div class="syjm1_one">
+			<p><店铺名字></p>
+		</div>
+		<div class="syjm1_two">
+			<div id="" style="float: left; width: 150px; ">
+				<h3 >工号：*****</h3>
+			</div>
+			<div id="ination">
+				<h3 style="display: inline;">姓名：**</h3>
+			</div>
+			<div id="ination">
+				<h3 >性别：**</h3>
+			</div>
+			<div id="" style="float: left; width: 220px; ">
+				<h3 ><label class="mytimess">上班时长：</label></h3>
+			</div>
+			<div id="ination">
+				<button style="width: 120px;" class="returnindex"> 退&nbsp;出</button>
+			</div>
+		</div>
+	</div>
+	<div class="syjm2">
+		<form class="layui-form" action="#">
+			<table class="" id="Top_Table" name="ssss">
+				<colgroup>
+					<col width="6%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="6%">
+				</colgroup>
+				<thead>
+				<tr>
+					<th>序号</th>
+					<th>商品单号</th>
+					<th>商品类型</th>
+					<th>品牌名称</th>
+					<th>品牌型号</th>
+					<th>商品颜色</th>
+					<th>商品尺码</th>
+					<th>是否折扣</th>
+					<th>折扣金额(元)</th>
+					<th>售价（元）</th>
+					<th>数量（件）</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody class="table_tbody" >
+
+				</tbody>
+
+			</table>
+			<div id="table_page"></div>
+		</form>
+	</div>
+	<div class="syjm3">
+		<div id="xd1" >订单号：***********</div>
+		<div id="xd2" >数量：**件</div>
+		<div id="xd2" >原价：¥00.00元</div>
+		<div id="xd4" >合计：¥00.00元</div>
+		<div id="xd5" >收银员：***</div>
+		<div id="xd6" ><button style="width: 150px;" class="invo">结账</button></div>
+		<div id="xd7" ><button style="width: 100px;">保存</button></div>
+		<div id="xd7" ><button style="width: 100px;" class="selectpending">待完成订单</button></div>
+	</div>
+	<div class="syjm4">
+		<form class="layui-form" action="#">
+			<table class="">
+				<colgroup>
+					<col width="6%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="8%">
+					<col width="6%">
+
+				</colgroup>
+				<thead>
+				<tr>
+					<th>序号</th>
+					<th>商品单号</th>
+					<th>商品类型</th>
+					<th>品牌名称</th>
+					<th>品牌型号</th>
+					<th>商品颜色</th>
+					<th>商品尺码</th>
+					<th>是否折扣</th>
+					<th>折扣金额(元)</th>
+					<th>售价（元）</th>
+					<th>数量（件）</th>
+					<th>操作</th>
+				</tr>
+				</thead>
+				<tbody class="">
+				<tr>
+					<td>01</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td>10086</td>
+					<td><a>取消</a></td>
+				</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	<div class="syjm5">
+		<input type="text" style="width: 200px; height:22px;" placeholder="请输入商品单号"/>&nbsp;<button>搜索</button>&nbsp;
+		<button style="width: 120px;">查看所有商品</button>
+		<button style="width: 120px;" class="selectQo">查询订单</button>&nbsp;
+		<button style="width: 80px;" class="backSIngle">退单</button>
+	</div>
+	<div class="syjm6">
+		<div id="jsyy1" ><label id="clock">当前时间：yy/mm/dd</label></div>
+		<div id="jsyy2" ><button id="jsyy3" class="returnindex">结束营业</button></div>
+	</div>
+</div>
+<script src="../../../base/js/jquery-1.11.3.min.js"></script>
+<script src="../../../base/layui-v2.4.3/layui/layui.js"></script>
+<script type="text/javascript" src="../../../index/js/indexStaff.js">
+
+</script>
+</body>
+
+</html>

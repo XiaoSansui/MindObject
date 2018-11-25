@@ -1,0 +1,62 @@
+body{
+	background: url(../../../../../images/1006.jpg)no-repeat center center fixed;
+			background-size: 100% 100%;
+}.myitems1{
+			width: 1200px;
+			height: 80px;
+			margin: 0px auto;
+			border:1px solid  #4E5465;
+			background: aquamarine;
+		}
+		.myitems2{
+			width: 1200px;
+			height: 100px;
+			margin: 0px auto;
+			border:2px solid  #4E5465;
+			border-radius:15px;
+		}
+		.myitems3{
+			width: 1200px;
+			height: 440px;
+			margin: 0px auto;
+			
+		}
+		.myitems1_one{
+			font-size: 30px;
+			margin-left: 20px;
+			margin-top: 20px;
+			float: left;
+			color: red ;
+		}
+	    .myitems1_two{
+	    	float: left;
+	    	width: 220px;
+	    	margin-left: 60px;
+	    	margin-top: 40px;
+	    }
+	    .myitems1_two button{
+	    	width: 100px;
+	    	margin-left: 50px;
+	    }
+	    .myitems2_one{
+	    	width: 280px;
+	    	margin-left: 30px;
+	    	font-size: 16px;
+	    	padding-top: 5px;
+	    }
+	    .myitems2_one button{
+	    	width: 247px;
+	    }
+	    .myitems2_two{
+	    	padding-top:6px;
+	    	font-size: 16px;
+	    }
+	    .myitems2_two button{
+	    	width: 150px;
+	    }
+	    .myitems2 select{
+	    	width: 120px;
+	    	font-size: 14px;
+	    }
+	    
+		

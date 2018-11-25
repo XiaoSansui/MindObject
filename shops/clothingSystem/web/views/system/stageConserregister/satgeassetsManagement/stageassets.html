@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	 <!--
+    	作者：TOP
+    	时间：2018-11-01
+    	描述：查看资产界面（由系统管理员点击进入，进营业额的查询）
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../../base/layui-v2.4.3/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../../../../base/font-awesome-4.7.0/css/font-awesome.css" media="all" />
+		<link rel="stylesheet" href="css/stageassets.css" media="all" />
+	</head>
+	<style>
+		
+	</style>
+	<body>
+		<div class="myassets1">
+			<div class="myassets1_one">资产信息</div>
+			<div class="myassets1_two">店铺名字</div>
+			<div class="myassets1_two">商家号：*****</div>
+			<div class="myassets1_two"><button class="return">返回</button></div>
+			<div class="myassets1_two"><button class="returnindexCon">主界面</button></div>
+		</div>
+		<div class="myassets2">
+			<div class="myassets2_one"><label>总营业额：</label></div>
+			
+			<div class="myassets2_three"><label style="float: left;">日期：</label>
+                   <form name="reg_testdate">
+                        <select name="YYYY" onchange="YYYYDD(this.value)">
+                            <option value="">请选择年</option>
+                        </select>
+                        <select name="MM" onchange="MMDD(this.value)">
+                            <option value="">选择月</option>
+                        </select>
+                    </form>
+ 
+			</div>	
+			<div class="myassets2_three" ><button>查询</button></div>
+			<div class="myassets2_four" >当月营业额：**</div>
+		</div>
+		<div class="myassets3">
+			<form class="layui-form" action="#" >
+				<table class="layui-table" lay-size="sm">
+					<colgroup>
+					    <col width="110">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					</colgroup>
+				  <thead>
+				    <tr>
+						<th>商家号</th>
+						<th>营业时间</th>
+						<th>当日营业额</th>
+						<th>退单数量</th>
+						<th>退单金额</th>
+						<th>净营业额</th>
+						
+				    </tr> 
+				  </thead>
+				  <tbody class="">
+				  	<tr>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  	</tr>
+				  </tbody>
+				</table>
+			</form>
+		</div>
+		<script src="../../../../base/js/jquery-1.11.3.min.js"></script>
+		<script src="../../../../base/layui-v2.4.3/layui/layui.js"></script>
+		<script type="text/javascript" src="js/stageassets.js"></script>
+	</body>
+</html>

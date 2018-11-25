@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<!--
+    	作者：TOP
+    	时间：2018-11-01
+    	描述：上线界面（由管理员点击进入，查询员工的上下线时间）
+    -->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../../../../base/layui-v2.4.3/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="../../../../base/font-awesome-4.7.0/css/font-awesome.css" media="all" />
+		<link rel="stylesheet" href="css/online.css" media="all" />
+	</head>
+	<style>
+		
+	</style>
+	<body>
+		<div class="myonline1">
+			<div class="myonline1_one">上线管理</div>
+			<div class="myonline1_two">店铺名字</div>
+			<div class="myonline1_two">商家号：*****</div>
+			<div class="myonline1_two"><button class="returnindexCon">主界面</button></div>
+		</div>
+		<div class="myonline2">
+			<div class="myonline2_one"><label>姓名：</label><input type="text"/></div>
+			<div class="myonline2_one" ><label>工号：</label><input type="text"/></div>
+			<div class="myonline2_three"><label style="float: left;">日期：</label>
+                   <form name="reg_testdate">
+                        <select name="YYYY" onchange="YYYYDD(this.value)">
+                            <option value="">请选择年</option>
+                        </select>
+                        <select name="MM" onchange="MMDD(this.value)">
+                            <option value="">选择月</option>
+                        </select>
+                        <select name="DD">
+                            <option value="">选择日</option>
+                        </select>
+                    </form>
+ 
+			</div>	
+			<div class="myonline2_three" style="float: left;"><button>查询</button></div>
+		</div>
+		
+		<div class="myonline3">
+			<form class="layui-form" action="#" >
+				<table class="layui-table" lay-size="sm">
+					<colgroup>
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">
+					    <col width="100">   
+					    <col width="100">  
+					    <col width="150"> 
+					</colgroup>
+				  <thead>
+				    <tr>
+						
+						<th>工号</th>
+						<th>姓名</th>
+						<th>性别</th>
+						<th>上线时间</th>
+						<th>下线时间</th>	
+						<th>在线工作时间</th>	
+				    </tr> 
+				  </thead>
+				  <tbody class="">
+				  	<tr>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  		<td>10086</td>
+				  	</tr>
+				  </tbody>
+				</table>
+			</form>
+		</div>
+		<script src="../../../../base/js/jquery-1.11.3.min.js"></script>
+		<script src="../../../../base/layui-v2.4.3/layui/layui.js"></script>
+		<script type="text/javascript" src="js/online.js"></script>
+	</body>
+</html>
