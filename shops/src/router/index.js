@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '../pages/Login'
+import Business from '../pages/Business'
 
 Vue.use(Router)
 
@@ -12,8 +13,13 @@ export default new Router({
       component: Login
     },
     {
+      path: '/business',
+      name: 'Business',
+      component: Business
+    },
+    {
       path: '/',
-      redirect: '/login'
+      redirect: '/business'
     }
   ]
 })

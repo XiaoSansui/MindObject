@@ -7,6 +7,12 @@
 <script>
 export default {
   name: 'App',
+  mounted(){
+    layui.use(['element', 'form'], function(exports){
+      var element = layui.element
+        ,form = layui.form;
+    });
+  }
 }
 </script>
 

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript" src="./static/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $.post('http://192.168.0.166:8080/user/login',{userId:1,password:1234},(data)=>{
+      console.log(data);
+    })
+</script>
+</html>
