@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../lib/layui/css/layui.css">
+  <script src="../lib/layui/layui.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    layui.use(['form'], function() {
+      var form = layui.form;
+      form.render()
+        })
+  </script>
+</head>
+<body>
+<div style="text-align: center;font-size: 35px;font-weight: 600;font-family: 黑体;margin: 20px 0">
+        <span class="shopsTitle">
+          我的商品
+        </span>
+</div>
+<div class="layui-tab layui-tab-brief">
+  <ul class="layui-tab-title" style="padding: 0 20px">
+    <li class="layui-this">我的商品</li>
+    <li>添加商品</li>
+    <li>修改商品</li>
+  </ul>
+  <div class="layui-tab-content" style="height: 100px;">
+    <div class="layui-tab-item layui-show">
+      <div class="layui-row layui-col-space10">
+        <div class="layui-col-md4">
+          <div class="layui-line">
+            <label class="layui-form-label">商品单号:</label>
+            <div class="layui-input-inline">
+              <input type="text" name="" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+        </div>
+        <div class="layui-col-md4">
+          <div class="layui-line">
+            <label class="layui-form-label">品牌名称:</label>
+            <div class="layui-input-inline" >
+              <input type="text" name="" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+        </div>
+        <div class="layui-col-md4 layui-form">
+          <div class="layui-form-item" style="width: 300px">
+            <label class="layui-form-label">商品类型:</label>
+            <div class="layui-input-block">
+              <select name="interest" lay-filter="aihao" >
+                <option value="0">全部</option>
+                <option value="1">夹克</option>
+                <option value="2">裤子</option>
+                <option value="3">毛衫</option>
+                <option value="4">衬衣</option>
+                <option value="5">棉服</option>
+                <option value="6">大衣</option>
+                <option value="7">T恤</option>
+                <option value="8">鞋子</option>
+                <option value="9">袜子</option>
+                <option value="10">其他</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layui-col-md12 " style="text-align: center;margin: 10px 0">
+        <a href=""><button class="layui-btn">&nbsp;&nbsp;&nbsp;&nbsp;查询&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+      </div>
+      <table class="layui-table">
+        <colgroup>
+          <col><col><col><col><col><col><col><col><col><col><col>
+        </colgroup>
+        <thead>
+        <tr>
+          <th>序号</th>
+          <th>商品单号</th>
+          <th>商品类型</th>
+          <th>品牌名称</th>
+          <th>品牌型号</th>
+          <th>商品颜色</th>
+          <th>商品大小</th>
+          <th>商品价格</th>
+          <th>是否折扣</th>
+          <th>折扣金额</th>
+          <th>售价</th>
+          <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group">
+              <button class="layui-btn layui-btn-xs">修改</button>
+              <button class="layui-btn layui-btn-xs">删除</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group">
+              <button class="layui-btn layui-btn-xs">修改</button>
+              <button class="layui-btn layui-btn-xs">删除</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group">
+              <button class="layui-btn layui-btn-xs">修改</button>
+              <button class="layui-btn layui-btn-xs">删除</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group">
+              <button class="layui-btn layui-btn-xs">修改</button>
+              <button class="layui-btn layui-btn-xs">删除</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group">
+              <button class="layui-btn layui-btn-xs">修改</button>
+              <button class="layui-btn layui-btn-xs">删除</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group">
+              <button class="layui-btn layui-btn-xs">修改</button>
+              <button class="layui-btn layui-btn-xs">删除</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group">
+              <button class="layui-btn layui-btn-xs">修改</button>
+              <button class="layui-btn layui-btn-xs">删除</button>
+            </div>
+          </td>
+        </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="layui-tab-item">
+      <div class="commodity-wrap">
+        <form class="layui-form" action="">
+          <div class="layui-form-item">
+            <label class="layui-form-label">商家号</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商家号" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品单号</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品单号" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品类型</label>
+            <div class="layui-input-block">
+              <select name="dress" lay-verify="required">
+                <option value="0">夹克</option>
+                <option value="1">裤子</option>
+                <option value="2">毛衫</option>
+                <option value="3">衬衣</option>
+                <option value="4">棉服</option>
+                <option value="5">大衣</option>
+                <option value="6">T恤</option>
+                <option value="7">鞋子</option>
+                <option value="8">袜子</option>
+                <option value="9">其他</option>
+              </select>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">品牌名称</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入品牌名称" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">品牌型号</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入品牌型号" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品颜色</label>
+            <div class="layui-input-block">
+              <select name="color" lay-verify="required">
+                <option value="0">红色</option>
+                <option value="1">橙色</option>
+                <option value="2">黄色</option>
+                <option value="3">绿色</option>
+                <option value="4">青色</option>
+                <option value="5">蓝色</option>
+                <option value="6">紫色</option>
+                <option value="7">黑色</option>
+                <option value="8">白色</option>
+                <option value="9">卡其色</option>
+                <option value="10">米白色</option>
+                <option value="11">其他颜色</option>
+              </select>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品大小</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品大小" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品价格</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品价格(元)" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">是否折扣</label>
+            <div class="layui-input-block">
+              <select name="agio" lay-verify="required">
+                <option value="1">否</option>
+                <option value="0">是</option>
+              </select>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">折扣金额</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入折扣金额(元)" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <div class="layui-input-block">
+              <button class="layui-btn" lay-submit lay-filter="formDemo">添加</button>
+              <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="layui-tab-item">
+      <div class="commodity-wrap">
+        <form class="layui-form" action="">
+          <div class="layui-form-item">
+            <label class="layui-form-label">商家号</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商家号" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品单号</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品单号" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品类型</label>
+            <div class="layui-input-block">
+              <select name="dress" lay-verify="required">
+                <option value="0">夹克</option>
+                <option value="1">裤子</option>
+                <option value="2">毛衫</option>
+                <option value="3">衬衣</option>
+                <option value="4">棉服</option>
+                <option value="5">大衣</option>
+                <option value="6">T恤</option>
+                <option value="7">鞋子</option>
+                <option value="8">袜子</option>
+                <option value="9">其他</option>
+              </select>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">品牌名称</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入品牌名称" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">品牌型号</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入品牌型号" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品颜色</label>
+            <div class="layui-input-block">
+              <select name="color" lay-verify="required">
+                <option value="0">红色</option>
+                <option value="1">橙色</option>
+                <option value="2">黄色</option>
+                <option value="3">绿色</option>
+                <option value="4">青色</option>
+                <option value="5">蓝色</option>
+                <option value="6">紫色</option>
+                <option value="7">黑色</option>
+                <option value="8">白色</option>
+                <option value="9">卡其色</option>
+                <option value="10">米白色</option>
+                <option value="11">其他颜色</option>
+              </select>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品大小</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品大小" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">商品价格</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品价格(元)" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">是否折扣</label>
+            <div class="layui-input-block">
+              <select name="agio" lay-verify="required">
+                <option value="1">否</option>
+                <option value="0">是</option>
+              </select>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">折扣金额</label>
+            <div class="layui-input-block">
+              <input type="text" name="title" required  lay-verify="required" placeholder="请输入折扣金额(元)" autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <div class="layui-input-block">
+              <button class="layui-btn" lay-submit lay-filter="formDemo">修改</button>
+              <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<script>
+  layui.config({
+    base: 'js/'
+  }).use('admin');
+  //注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+  layui.use('element', function(){
+    var element = layui.element;
+
+    //…
+  });
+</script>
+<style>
+  .layui-tab{
+    padding: 0 20px;
+  }
+  .commodity-wrap h3{
+    font-family: 黑体;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+  }
+</style>
+</html>

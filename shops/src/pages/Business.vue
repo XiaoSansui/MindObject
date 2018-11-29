@@ -71,12 +71,10 @@
       </ul>
     </div>
     <div class="businessContent">
-     <p>123</p>
-     <p>123</p>
-     <p>123</p>
-     <p>123</p>
-     <p>123</p>
-     <p>123</p>
+     <div class="contentWrap">
+       <div class="contentTitle"><span>添加我的商品</span></div>
+
+     </div>
     </div>
   </div>
 </template>
@@ -86,6 +84,11 @@
 </script>
 
 <style scoped lang="less">
+  .contentWrap{
+    width: 100%;
+    height: 100%;
+  }
+
 .businessTitle{
   font-size: 30px;
   font-weight: 500;
@@ -115,10 +118,5 @@
     width: 100%-200px;
     height: 100%;
     margin-left: 200px;
-    background-color: black;
-    p{
-      color: red;
-      padding: 20px;
-    }
   }
 </style>

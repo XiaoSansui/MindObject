@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../lib/layui/css/layui.css">
+  <script src="../lib/layui/layui.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    layui.use(['form'], function() {
+      var form = layui.form;
+      form.render()
+    })
+  </script>
+</head>
+<body>
+<div style="text-align: center;font-size: 35px;font-weight: 600;font-family: 黑体;margin: 20px 0">
+        <span class="shopsTitle">
+          主页
+        </span>
+</div>
+<div class="commodity-wrap">
+  <form class="layui-form" action="" lay-filter="shops">
+    <div class="layui-form-item">
+      <label class="layui-form-label">商家账号</label>
+      <div class="layui-input-block">
+        <input value="123" type="text" name="username"  required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+      </div>
+    </div>
+    <div class="layui-form-item">
+      <label class="layui-form-label">店铺名字</label>
+      <div class="layui-input-block">
+        <input value="123"  type="text" name="shopName" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+      </div>
+    </div>
+    <div class="layui-form-item">
+      <label class="layui-form-label">我的姓名</label>
+      <div class="layui-input-block">
+        <input value="123"  type="text" name="myName" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+      </div>
+    </div>
+    <div class="layui-form-item">
+      <label class="layui-form-label">我的性别</label>
+      <div class="layui-input-block">
+        <input value="123"  type="text" name="mySex" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+      </div>
+    </div>
+    <div class="layui-form-item">
+      <label class="layui-form-label">联系方式</label>
+      <div class="layui-input-block">
+        <input value="123"  type="text" name="phone" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+      </div>
+    </div>
+    <div class="layui-form-item">
+      <label class="layui-form-label">注册时间</label>
+      <div class="layui-input-block">
+        <input value="123"  type="text" name="date" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+      </div>
+    </div>
+    <div class="layui-form-item">
+      <label class="layui-form-label">身份</label>
+      <div class="layui-input-block">
+        <input value="管理员"  type="text" name="status" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+<script>
+  layui.config({
+    base: 'js/'
+  }).use('admin');
+  //注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+  layui.use(['element','form'], function(){
+    var element = layui.element,
+      form = layui.form;
+  });
+  form.val("shops", {
+    "username": "123" // "name": "value"
+    ,"shopName": "123"
+    ,"mySex": "男"
+    ,"phone": "123"
+    ,"date": "123"
+    ,"status": "管理员"
+  })
+</script>
+<style>
+  .commodity-wrap{
+    padding: 0 20px;
+  }
+  .commodity-wrap h3{
+    font-family: 黑体;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+  }
+</style>
+</html>

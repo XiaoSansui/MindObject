@@ -245,26 +245,25 @@
       handleClick(tab, event) {
       },
       onRegister(){
-        const user = this.form2
-        this.$store.dispatch('register',user)
-        // if(!this.form2.shopName){
-        //   this.openMsg("请输入商家名称!")
-        // }else if(!this.form2.name){
-        //   this.openMsg("请输入姓名!")
-        // }else if(!this.form2.userId){
-        //   this.openMsg("请输入账号!")
-        // }else if(!this.form2.pass){
-        //   this.openMsg("请输入密码!")
-        // }else if(!this.form2.date){
-        //   this.openMsg("请输入出生年月!")
-        // }else if(!this.form2.phone){
-        //   this.openMsg("请输入联系方式!")
-        // }else if(!this.form2.IDcard){
-        //   this.openMsg("请输入身份信息!")
-        // }else{
-        //
-        //
-        // }
+
+        if(!this.form2.shopName){
+          this.openMsg("请输入商家名称!")
+        }else if(!this.form2.name){
+          this.openMsg("请输入姓名!")
+        }else if(!this.form2.userId){
+          this.openMsg("请输入账号!")
+        }else if(!this.form2.pass){
+          this.openMsg("请输入密码!")
+        }else if(!this.form2.date){
+          this.openMsg("请输入出生年月!")
+        }else if(!this.form2.phone){
+          this.openMsg("请输入联系方式!")
+        }else if(!this.form2.IDcard){
+          this.openMsg("请输入身份信息!")
+        }else{
+          const user = this.form2
+          this.$store.dispatch('register',user)
+        }
 
       },
       resetForm() {
@@ -298,14 +297,14 @@
           this.yzm()
         }
       },
-     /* registerMsg(value){
+      registerMsg(value){
         console.log(value);
         if(value.code === 1){
           this.openSuccess(value.msg)
         }else{
           this.openMsg(value.msg)
         }
-      }*/
+      }
     }
   }
 </script>
