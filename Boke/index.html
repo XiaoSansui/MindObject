@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>个人博客</title>
+<link rel="stylesheet" href="static/reset.css">
+<link rel="stylesheet" href="src/css/firstPage.css">
+<link rel="stylesheet" href="./src/css/loading.css">
+</head>
+<body>
+
+<div  class="content" >
+    <div class="box">
+      <h1 class="title">个人博客</h1>
+      <p class="signature">I Miss You</p>
+      <div class="btn">
+        <span class="going">Go Page</span>
+      </div>
+    </div>
+    <div id="large-header" class="large-header">
+      <canvas id="demo-canvas"></canvas>
+    </div>
+</div>
+<div class="Loading">
+  <div class="circle-loader">
+    <div class="circle-line">
+      <div class="circle circle-blue"></div>
+      <div class="circle circle-blue"></div>
+      <div class="circle circle-blue"></div>
+    </div>
+    <div class="circle-line">
+      <div class="circle circle-yellow"></div>
+      <div class="circle circle-yellow"></div>
+      <div class="circle circle-yellow"></div>
+    </div>
+    <div class="circle-line">
+      <div class="circle circle-red"></div>
+      <div class="circle circle-red"></div>
+      <div class="circle circle-red"></div>
+    </div>
+    <div class="circle-line">
+      <div class="circle circle-green"></div>
+      <div class="circle circle-green"></div>
+      <div class="circle circle-green"></div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="src/js/firstPage.js"></script>
+<script src="static/TweenLite.min.js"></script>
+<script src="static/EasePack.min.js"></script>
+<script src="static/rAF.js"></script>
+<script src="static/demo-1.js"></script>
+<script type="text/javascript">
+  window.onload=function () {
+    let goPageBtn = document.querySelector('.going')
+    goPageBtn.onclick=function () {
+      window.location.href='./src/index.html'
+    }
+  }
+
+  //页面加载loding动画
+  document.onreadystatechange = completeLoading;
+  function completeLoading() {
+    if (document.readyState == "complete") {
+      var loadingMask = document.querySelector('.Loading');
+      loadingMask.style.cssText='transition:.5s;opacity:0;z-index:-1;';
+    }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../../lib/layui/css/layui.css">
+  <script src="../../lib/layui/layui.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    layui.use(['form'], function() {
+      var form = layui.form;
+      form.render()
+        })
+  </script>
+</head>
+<body>
+<div style="text-align: center;font-size: 35px;font-weight: 600;font-family: 黑体;margin: 20px 0">
+        <span class="shopsTitle">
+          店铺管理
+        </span>
+</div>
+<div class="layui-tab layui-tab-brief">
+  <ul class="layui-tab-title" style="padding: 0 20px">
+    <li class="layui-this">我的店铺</li>
+    <li>修改信息</li>
+  </ul>
+  <div class="layui-tab-content" style="height: 100px;">
+    <div class="layui-tab-item layui-show">
+      <div class="commodity-wrap">
+        <form class="layui-form" action="" lay-filter="shops">
+          <div class="layui-form-item">
+            <label class="layui-form-label">商家账号</label>
+            <div class="layui-input-block">
+              <input value="123" type="text" name="username"  required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">店铺名字</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="shopName" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">我的姓名</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="myName" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">我的性别</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="mySex" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">联系方式</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="phone" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">注册时间</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="date" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">身份</label>
+            <div class="layui-input-block">
+              <input value="管理员"  type="text" name="status" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="layui-tab-item">
+      <div class="commodity-wrap">
+        <form class="layui-form" action="" lay-filter="shops">
+          <div class="layui-form-item">
+            <label class="layui-form-label">商家账号</label>
+            <div class="layui-input-block">
+              <input value="123" type="text" name="username"  required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">店铺名字</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="shopName" required  lay-verify="required"  autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">我的姓名</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="myName" required  lay-verify="required"  autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">我的性别</label>
+            <div class="layui-input-block">
+              <select name="mySex" lay-verify="required">
+                <option value="0">男</option>
+                <option value="1">女</option>
+              </select>
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">联系方式</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="phone" required  lay-verify="required"  autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">注册时间</label>
+            <div class="layui-input-block">
+              <input value="123"  type="text" name="date" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">身份</label>
+            <div class="layui-input-block">
+              <input value="管理员"  type="text" name="status" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <div class="layui-input-block">
+              <button class="layui-btn" lay-submit lay-filter="formDemo">修改</button>
+              <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<script>
+
+  //注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+  layui.use(['element','form'], function(){
+    var element = layui.element,
+      form = layui.form;
+  });
+</script>
+<style>
+  .layui-tab{
+    padding: 0 20px;
+  }
+  .commodity-wrap h3{
+    font-family: 黑体;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+  }
+</style>
+</html>

@@ -1,0 +1,512 @@
+<div id="app">
+  <div class="goods" v-show="userType===1">
+    <div style="text-align: center;font-size: 35px;font-weight: 600;font-family: 黑体;margin: 20px 0">
+        <span class="shopsTitle">
+          主页
+        </span>
+    </div>
+    <div class="commodity-wrap">
+      <form class="layui-form" action="" lay-filter="shops">
+        <div class="layui-form-item">
+          <label class="layui-form-label">商家账号</label>
+          <div class="layui-input-block">
+            <input value="123" type="text" name="username"  required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label">店铺名字</label>
+          <div class="layui-input-block">
+            <input value="123"  type="text" name="shopName" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label">我的姓名</label>
+          <div class="layui-input-block">
+            <input value="123"  type="text" name="myName" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label">我的性别</label>
+          <div class="layui-input-block">
+            <input value="123"  type="text" name="mySex" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label">联系方式</label>
+          <div class="layui-input-block">
+            <input value="123"  type="text" name="phone" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label">注册时间</label>
+          <div class="layui-input-block">
+            <input value="123"  type="text" name="date" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layui-form-label">身份</label>
+          <div class="layui-input-block">
+            <input value="管理员"  type="text" name="status" required  lay-verify="required" disabled autocomplete="off" class="layui-input">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="cashRegister" v-show="userType===2">
+    <div class="layui-row">
+      <div class="layui-col-md4">
+        <span>店铺名字</span>
+      </div>
+      <div class="layui-col-md2">
+        <span>工号:xxxxx</span>
+      </div>
+      <div class="layui-col-md2">
+        <span>姓名:xxxxx</span>
+      </div>
+      <div class="layui-col-md2">
+        <span>性别:xxxxx</span>
+      </div>
+      <div class="layui-col-md2">
+        <span>上班时长:xxxxx</span>
+      </div>
+    </div>
+    <div class="layui-tab layui-tab-brief">
+      <ul class="layui-tab-title" style="padding: 0 20px">
+        <li class="layui-this">商品列表</li>
+        <li>订单列表</li>
+      </ul>
+      <div class="layui-tab-content" style="height: 100px;">
+        <div class="layui-tab-item layui-show">
+          <table class="layui-table"  lay-skin="row">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+            <tr>
+              <th>序号</th>
+              <th>商品单号</th>
+              <th>商品类型</th>
+              <th>品牌名称</th>
+              <th>品牌型号</th>
+              <th>商品颜色</th>
+              <th>商品尺码</th>
+              <th>是否折扣</th>
+              <th>折扣金额(元)</th>
+              <th>售价(元)</th>
+              <th>数量(件)</th>
+              <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+
+            </tbody>
+          </table>
+          <div class="layui-row layui-col-space1">
+            <div class="layui-col-md4">
+              <div class="layui-form-item">
+                <input type="text" name="title"  placeholder="请输入商品单号" autocomplete="off" class="layui-input">
+              </div>
+            </div>
+            <div class="layui-col-md6">
+              <div class="layui-btn-group" style="margin-top: 3px;margin-left: 5px">
+                <button class="layui-btn ">搜索</button>
+                <button class="layui-btn ">查看所有商品</button>
+                <button class="layui-btn ">查询订单</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="layui-tab-item">
+          <table class="layui-table"  lay-skin="row">
+            <colgroup>
+              <col>
+            </colgroup>
+            <thead>
+            <tr>
+              <th>序号</th>
+              <th>商品单号</th>
+              <th>商品类型</th>
+              <th>品牌名称</th>
+              <th>品牌型号</th>
+              <th>商品颜色</th>
+              <th>商品尺码</th>
+              <th>是否折扣</th>
+              <th>折扣金额(元)</th>
+              <th>售价(元)</th>
+              <th>数量(件)</th>
+              <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+            <tr>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>10086</td>
+              <td>
+                <button class="layui-btn layui-btn-primary layui-btn-xs">添加</button>
+              </td>
+            </tr>
+
+            </tbody>
+          </table>
+          <div class="layui-row">
+            <div class="layui-col-md12" style="font-size: 20px">
+              <span>订单号:12313123</span>&nbsp;&nbsp;&nbsp;
+              <span>数量:12313123</span>&nbsp;&nbsp;&nbsp;
+              <span>原价:12313123</span>&nbsp;&nbsp;&nbsp;
+              <span>合计:12313123</span>&nbsp;&nbsp;&nbsp;
+              <span>收银员:12313123</span>&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="layui-col-md6 layui-col-md-offset5">
+              <div class="layui-btn-group" style="margin-top: 3px;margin-left: 5px">
+                <button class="layui-btn ">搜索</button>
+                <button class="layui-btn ">查看所有商品</button>
+                <button class="layui-btn ">查询订单</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="commodity-wrap">
+      <div class="layui-container">
+
+        </div>
+      </div>
+    </div>
+  <div class="administrators" v-show="userType===3">
+    <div style="text-align: center;font-size: 35px;font-weight: 600;font-family: 黑体;margin: 20px 0">
+        <span class="shopsTitle">
+          商家信息
+        </span>
+    </div>
+    <div class="layui-tab layui-tab-brief">
+      <div class="layui-line" style="padding: 10px">
+        <div class="layui-input-inline">
+          <input type="text" name="" autocomplete="off" placeholder="请输入商家号" class="layui-input">
+        </div>
+        <div class="layui-btn-group">
+
+          <button class="layui-btn  layui-btn-normal">查询</button>
+          <button class="layui-btn  layui-btn-normal">全部商家</button>
+          <button class="layui-btn  layui-btn-normal">已删除商家</button>
+        </div>
+      </div>
+      <table class="layui-table">
+        <colgroup>
+          <col><col><col><col><col><col><col><col><col width="250px">
+        </colgroup>
+        <thead>
+        <tr>
+          <th>商家号</th>
+          <th>商家名称</th>
+          <th>注册时间</th>
+          <th>管理员姓名</th>
+          <th>管理员密码</th>
+          <th>联系方式</th>
+          <th>下单时间</th>
+          <th>是否删除</th>
+          <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group buttonmar">
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看商家信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看订单信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看员工信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看资产信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-danger">删除</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>10086</td>
+          <td>
+            <div class="layui-btn-group buttonmar">
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看商家信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看订单信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看员工信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-primary">查看资产信息</button>
+              <button class="layui-btn layui-btn-xs layui-btn-danger">删除</button>
+            </div>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script>
+
+  var app = new Vue({
+    el: '#app',
+    data: {
+      userType:3,  //用户类型(1:商家,2:收银员,3:管理员)
+      users:'',
+    }
+  })
+
+  layui.config({
+    base: 'js/'
+  }).use('admin');
+  //注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+  layui.use(['element','form'], function(){
+    var element = layui.element,
+      form = layui.form;
+    form.val("shops", {
+      "username": "123" // "name": "value"
+      ,"shopName": "123"
+      ,"mySex": "男"
+      ,"phone": "123"
+      ,"date": "123"
+      ,"status": "管理员"
+    })
+  });
+
+</script>
+<style>
+  .commodity-wrap h3{
+    font-family: 黑体;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+  }
+  .buttonmar .layui-btn-xs{
+    margin: 2px;
+  }
+</style>
