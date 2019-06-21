@@ -1,4 +1,4 @@
-# GuiGu外卖
+# 外卖App
 
 > A Vue.js project
 >
