@@ -1,4 +1,4 @@
-# GuiGu直聘
+# 直聘App
 
 > A React project
 >
